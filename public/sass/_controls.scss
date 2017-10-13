@@ -1,0 +1,50 @@
+a.btn{
+
+	display: inline-block;
+	box-sizing: border-box;
+	width: auto;
+	margin: .5rem 0 1rem;
+	padding: .8rem 1.8rem;
+	border:solid 2px $sn-positive;
+	border-radius: 2px;
+	font-size: 1.125rem;
+	text-align: center;
+
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+	&.default{
+		background-image: radial-gradient(circle at center, lighten($sn-positive, 2%), $sn-positive);
+		background-size: 100%;
+		background-position: center;
+		background-color: $sn-positive;
+		color:white;
+	}
+	&.transp{
+		background-color: transparent;
+		color:$sn-positive;
+		border-color:$sn-positive;
+	}
+	&.block{
+		display: block;
+		width: 100%;
+	}
+
+	&:hover{
+		background-color: lighten($sn-positive,5%);
+		border-color: lighten($sn-positive,5%);
+		color:white;
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		background-size: 200%;
+	}
+}
+a.navlink{
+	@extend a.btn;
+	@extend a.btn.default;
+	@extend a.btn.block;
+	margin:0;
+	padding: .5rem;
+	font-size: .85rem;
+	background-color: $sn-positive;
+	color: white;
+	text-align: center;
+}

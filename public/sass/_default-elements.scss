@@ -1,0 +1,67 @@
+*{
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#prof-pic{
+	width: 3rem;
+	height: 3rem;
+}
+#site-title{
+	font-size: 1.25rem;
+}
+
+.modal{
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#cpanel{
+	background-color: $sn-cloud;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+
+	& > * {
+		margin: .5rem .8rem;
+	}
+
+	.user{
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center;
+		figcaption{
+			order:-1;
+			margin:0 1rem;
+		}
+	}
+}
+#cPanel2{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: stretch;
+
+}
+main{
+	display: block;
+	box-sizing: border-box;
+	width: calc(100% - 2rem);
+	margin: 0 auto;
+}
+section.card{
+	padding:1rem;
+	margin:2rem auto 2rem;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	& > .card{
+		padding:1rem;
+		margin:1rem;
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	}
+}
