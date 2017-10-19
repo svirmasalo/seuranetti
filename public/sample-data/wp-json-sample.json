@@ -1,0 +1,3372 @@
+{
+  "name": "Tmi S.Virmasalo",
+  "description": "Monipuolista verkkokoodia tarpeidesi mukaan",
+  "url": "https://svirmasalo.fi/koti",
+  "home": "https://svirmasalo.fi",
+  "gmt_offset": "0",
+  "timezone_string": "",
+  "namespaces": [
+    "oembed/1.0",
+    "akismet/v1",
+    "jwt-auth/v1",
+    "yoast/v1",
+    "wp/v2"
+  ],
+  "authentication": [],
+  "routes": {
+    "/": {
+      "namespace": "",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "context": {
+              "required": false,
+              "default": "view"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/"
+      }
+    },
+    "/oembed/1.0": {
+      "namespace": "oembed/1.0",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "namespace": {
+              "required": false,
+              "default": "oembed/1.0"
+            },
+            "context": {
+              "required": false,
+              "default": "view"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/oembed/1.0"
+      }
+    },
+    "/oembed/1.0/embed": {
+      "namespace": "oembed/1.0",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "url": {
+              "required": true
+            },
+            "format": {
+              "required": false,
+              "default": "json"
+            },
+            "maxwidth": {
+              "required": false,
+              "default": 600
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/oembed/1.0/embed"
+      }
+    },
+    "/oembed/1.0/proxy": {
+      "namespace": "oembed/1.0",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "url": {
+              "required": true,
+              "description": "Sen resurssin URL jonka oEmbed-tiedot noudetaan.",
+              "type": "string"
+            },
+            "format": {
+              "required": false,
+              "default": "json",
+              "enum": [
+                "json",
+                "xml"
+              ],
+              "description": "Käytettävä oEmbed-muoto.",
+              "type": "string"
+            },
+            "maxwidth": {
+              "required": false,
+              "default": 600,
+              "description": "Upotettavan kehyksen maksimileveys pikseleinä.",
+              "type": "integer"
+            },
+            "maxheight": {
+              "required": false,
+              "description": "Upotettavan kehyksen maksimikorkeus pikseleinä.",
+              "type": "integer"
+            },
+            "discover": {
+              "required": false,
+              "default": true,
+              "description": "Tehdäänkö oEmbed-tiedustelukutsu ennalta hyväksyttyjen palveluntarjoajien palveluihin.",
+              "type": "boolean"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/oembed/1.0/proxy"
+      }
+    },
+    "/akismet/v1": {
+      "namespace": "akismet/v1",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "namespace": {
+              "required": false,
+              "default": "akismet/v1"
+            },
+            "context": {
+              "required": false,
+              "default": "view"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/akismet/v1"
+      }
+    },
+    "/akismet/v1/key": {
+      "namespace": "akismet/v1",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        },
+        {
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ],
+          "args": {
+            "key": {
+              "required": true,
+              "description": "A 12-character Akismet API key. Available at akismet.com/get/",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "DELETE"
+          ],
+          "args": []
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/akismet/v1/key"
+      }
+    },
+    "/akismet/v1/settings": {
+      "namespace": "akismet/v1",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        },
+        {
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ],
+          "args": {
+            "akismet_strictness": {
+              "required": false,
+              "description": "If true, Akismet will automatically discard the worst spam automatically rather than putting it in the spam folder.",
+              "type": "boolean"
+            },
+            "akismet_show_user_comments_approved": {
+              "required": false,
+              "description": "If true, show the number of approved comments beside each comment author in the comments list page.",
+              "type": "boolean"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/akismet/v1/settings"
+      }
+    },
+    "/akismet/v1/stats": {
+      "namespace": "akismet/v1",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "interval": {
+              "required": false,
+              "default": "all",
+              "description": "The time period for which to retrieve stats. Options: 60-days, 6-months, all",
+              "type": "string"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/akismet/v1/stats"
+      }
+    },
+    "/akismet/v1/stats/(?P<interval>[\\w+])": {
+      "namespace": "akismet/v1",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "interval": {
+              "required": false,
+              "description": "The time period for which to retrieve stats. Options: 60-days, 6-months, all",
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "/jwt-auth/v1": {
+      "namespace": "jwt-auth/v1",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "namespace": {
+              "required": false,
+              "default": "jwt-auth/v1"
+            },
+            "context": {
+              "required": false,
+              "default": "view"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/jwt-auth/v1"
+      }
+    },
+    "/jwt-auth/v1/token": {
+      "namespace": "jwt-auth/v1",
+      "methods": [
+        "POST"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "POST"
+          ],
+          "args": []
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/jwt-auth/v1/token"
+      }
+    },
+    "/jwt-auth/v1/token/validate": {
+      "namespace": "jwt-auth/v1",
+      "methods": [
+        "POST"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "POST"
+          ],
+          "args": []
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/jwt-auth/v1/token/validate"
+      }
+    },
+    "/yoast/v1": {
+      "namespace": "yoast/v1",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "namespace": {
+              "required": false,
+              "default": "yoast/v1"
+            },
+            "context": {
+              "required": false,
+              "default": "view"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/yoast/v1"
+      }
+    },
+    "/yoast/v1/configurator": {
+      "namespace": "yoast/v1",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        },
+        {
+          "methods": [
+            "POST"
+          ],
+          "args": []
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/yoast/v1/configurator"
+      }
+    },
+    "/yoast/v1/reindex_posts": {
+      "namespace": "yoast/v1",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/yoast/v1/reindex_posts"
+      }
+    },
+    "/yoast/v1/statistics": {
+      "namespace": "yoast/v1",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/yoast/v1/statistics"
+      }
+    },
+    "/yoast/v1/ryte": {
+      "namespace": "yoast/v1",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/yoast/v1/ryte"
+      }
+    },
+    "/wp/v2": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "namespace": {
+              "required": false,
+              "default": "wp/v2"
+            },
+            "context": {
+              "required": false,
+              "default": "view"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/wp/v2"
+      }
+    },
+    "/wp/v2/posts": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            },
+            "page": {
+              "required": false,
+              "default": 1,
+              "description": "Kokoelman nykyinen sivu.",
+              "type": "integer"
+            },
+            "per_page": {
+              "required": false,
+              "default": 10,
+              "description": "Enimmäismäärä haun palauttamia tuloksia.",
+              "type": "integer"
+            },
+            "search": {
+              "required": false,
+              "description": "Rajaa tulokset niihin, jotka täsmäävät merkkijonoon. ",
+              "type": "string"
+            },
+            "after": {
+              "required": false,
+              "description": "Rajoita tulokset artikkeleihin, jotka on julkaistu annetun ISO8601-yhteensopivan päivämäärän jälkeen.",
+              "type": "string"
+            },
+            "author": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset tiettyjen kirjoittajien artikkeleihin. ",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "author_exclude": {
+              "required": false,
+              "default": [],
+              "description": "Varmistaa ettei tuloksissa ole artikkeleita, jotka on liitetty tiettyihin kirjoittajiin.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "before": {
+              "required": false,
+              "description": "Rajoita tulokset artikkeleihin, jotka on julkaistu annettua ISO8601-yhteensopivaa päivämäärää ennen.",
+              "type": "string"
+            },
+            "exclude": {
+              "required": false,
+              "default": [],
+              "description": "Varmista, etteivät tulokset sisällä tiettyjä ID:itä.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "include": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset tiettyihin ID:ihin.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "offset": {
+              "required": false,
+              "description": "Ohita määritelty määrä kohteita alusta.",
+              "type": "integer"
+            },
+            "order": {
+              "required": false,
+              "default": "desc",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "description": "Järjestää tulokset nousevaan tai laskevaan järjestykseen.",
+              "type": "string"
+            },
+            "orderby": {
+              "required": false,
+              "default": "date",
+              "enum": [
+                "author",
+                "date",
+                "id",
+                "include",
+                "modified",
+                "parent",
+                "relevance",
+                "slug",
+                "title"
+              ],
+              "description": "Järjestä kokoelma kohteen ominaisuuden mukaan.",
+              "type": "string"
+            },
+            "slug": {
+              "required": false,
+              "description": "Rajaa tulokset artikkeleihin joilla on yksi tai useampi polkutunnus.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "status": {
+              "required": false,
+              "default": "publish",
+              "description": "Rajaa tulokset artikkeleihin, joilla yksi tai useampi tila.",
+              "type": "array",
+              "items": {
+                "enum": [
+                  "publish",
+                  "future",
+                  "draft",
+                  "pending",
+                  "private",
+                  "trash",
+                  "auto-draft",
+                  "inherit",
+                  "acf-disabled",
+                  "any"
+                ],
+                "type": "string"
+              }
+            },
+            "categories": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset kohteisiin, joilla on valittu termi taksonomiassa categories.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "categories_exclude": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset sisältämään kaikki paitsi kohteet, joilla on annettu termi taksonomiassa categories.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "tags": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset kohteisiin, joilla on valittu termi taksonomiassa tags.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "tags_exclude": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset sisältämään kaikki paitsi kohteet, joilla on annettu termi taksonomiassa tags.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "sticky": {
+              "required": false,
+              "description": "Rajaa tulokset kiinnitettyihin kohteisiin. ",
+              "type": "boolean"
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST"
+          ],
+          "args": {
+            "date": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin sivuston aikavyöhykkeen ajassa.",
+              "type": "string"
+            },
+            "date_gmt": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin GMT-ajassa.",
+              "type": "string"
+            },
+            "slug": {
+              "required": false,
+              "description": "Kohteen tyypilleen uniikki alfanumeerinen tunniste.",
+              "type": "string"
+            },
+            "status": {
+              "required": false,
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private",
+                "acf-disabled"
+              ],
+              "description": "Kohteen nimetty tila.",
+              "type": "string"
+            },
+            "password": {
+              "required": false,
+              "description": "Salasana sisällön ja otteen suojaamiseksi. ",
+              "type": "string"
+            },
+            "title": {
+              "required": false,
+              "description": "Kohteen otsikko. ",
+              "type": "object"
+            },
+            "content": {
+              "required": false,
+              "description": "Kohteen sisältö.",
+              "type": "object"
+            },
+            "author": {
+              "required": false,
+              "description": "Kohteen kirjoittajan ID.",
+              "type": "integer"
+            },
+            "excerpt": {
+              "required": false,
+              "description": "Kohteen ote.",
+              "type": "object"
+            },
+            "featured_media": {
+              "required": false,
+              "description": "Kohteen artikkelikuvan ID.",
+              "type": "integer"
+            },
+            "comment_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Onko kohteen kommentointi käytössä. ",
+              "type": "string"
+            },
+            "ping_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Voiko kohteelle tehdä paluuviitteen.",
+              "type": "string"
+            },
+            "format": {
+              "required": false,
+              "enum": [
+                "standard",
+                "aside",
+                "chat",
+                "gallery",
+                "link",
+                "image",
+                "quote",
+                "status",
+                "video",
+                "audio"
+              ],
+              "description": "Kohteen muoto.",
+              "type": "string"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            },
+            "sticky": {
+              "required": false,
+              "description": "Onko kohde kiinnitetty. ",
+              "type": "boolean"
+            },
+            "template": {
+              "required": false,
+              "enum": [
+                ""
+              ],
+              "description": "Teematiedosto joka näyttää kohteen.",
+              "type": "string"
+            },
+            "categories": {
+              "required": false,
+              "description": "Kohteeseen liitetyt termit taksonomiassa category.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "tags": {
+              "required": false,
+              "description": "Kohteeseen liitetyt termit taksonomiassa post_tag.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/wp/v2/posts"
+      }
+    },
+    "/wp/v2/posts/(?P<id>[\\d]+)": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            },
+            "password": {
+              "required": false,
+              "description": "Artikkelin salasana, jos se on salasanasuojattu. ",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "date": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin sivuston aikavyöhykkeen ajassa.",
+              "type": "string"
+            },
+            "date_gmt": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin GMT-ajassa.",
+              "type": "string"
+            },
+            "slug": {
+              "required": false,
+              "description": "Kohteen tyypilleen uniikki alfanumeerinen tunniste.",
+              "type": "string"
+            },
+            "status": {
+              "required": false,
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private",
+                "acf-disabled"
+              ],
+              "description": "Kohteen nimetty tila.",
+              "type": "string"
+            },
+            "password": {
+              "required": false,
+              "description": "Salasana sisällön ja otteen suojaamiseksi. ",
+              "type": "string"
+            },
+            "title": {
+              "required": false,
+              "description": "Kohteen otsikko. ",
+              "type": "object"
+            },
+            "content": {
+              "required": false,
+              "description": "Kohteen sisältö.",
+              "type": "object"
+            },
+            "author": {
+              "required": false,
+              "description": "Kohteen kirjoittajan ID.",
+              "type": "integer"
+            },
+            "excerpt": {
+              "required": false,
+              "description": "Kohteen ote.",
+              "type": "object"
+            },
+            "featured_media": {
+              "required": false,
+              "description": "Kohteen artikkelikuvan ID.",
+              "type": "integer"
+            },
+            "comment_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Onko kohteen kommentointi käytössä. ",
+              "type": "string"
+            },
+            "ping_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Voiko kohteelle tehdä paluuviitteen.",
+              "type": "string"
+            },
+            "format": {
+              "required": false,
+              "enum": [
+                "standard",
+                "aside",
+                "chat",
+                "gallery",
+                "link",
+                "image",
+                "quote",
+                "status",
+                "video",
+                "audio"
+              ],
+              "description": "Kohteen muoto.",
+              "type": "string"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            },
+            "sticky": {
+              "required": false,
+              "description": "Onko kohde kiinnitetty. ",
+              "type": "boolean"
+            },
+            "template": {
+              "required": false,
+              "enum": [
+                ""
+              ],
+              "description": "Teematiedosto joka näyttää kohteen.",
+              "type": "string"
+            },
+            "categories": {
+              "required": false,
+              "description": "Kohteeseen liitetyt termit taksonomiassa category.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "tags": {
+              "required": false,
+              "description": "Kohteeseen liitetyt termit taksonomiassa post_tag.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        },
+        {
+          "methods": [
+            "DELETE"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "force": {
+              "required": false,
+              "default": false,
+              "description": "Ohitetaanko roskakori ja pakotetaan poistaminen.",
+              "type": "boolean"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/posts/(?P<parent>[\\d]+)/revisions": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "parent": {
+              "required": false,
+              "description": "Kohteen vanhemman ID.",
+              "type": "integer"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/posts/(?P<parent>[\\d]+)/revisions/(?P<id>[\\d]+)": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "DELETE"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "parent": {
+              "required": false,
+              "description": "Kohteen vanhemman ID.",
+              "type": "integer"
+            },
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "DELETE"
+          ],
+          "args": {
+            "parent": {
+              "required": false,
+              "description": "Kohteen vanhemman ID.",
+              "type": "integer"
+            },
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "force": {
+              "required": false,
+              "default": false,
+              "description": "Arvon tulee olla true, koska versiot eivät tue roskakoria.",
+              "type": "boolean"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/pages": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            },
+            "page": {
+              "required": false,
+              "default": 1,
+              "description": "Kokoelman nykyinen sivu.",
+              "type": "integer"
+            },
+            "per_page": {
+              "required": false,
+              "default": 10,
+              "description": "Enimmäismäärä haun palauttamia tuloksia.",
+              "type": "integer"
+            },
+            "search": {
+              "required": false,
+              "description": "Rajaa tulokset niihin, jotka täsmäävät merkkijonoon. ",
+              "type": "string"
+            },
+            "after": {
+              "required": false,
+              "description": "Rajoita tulokset artikkeleihin, jotka on julkaistu annetun ISO8601-yhteensopivan päivämäärän jälkeen.",
+              "type": "string"
+            },
+            "author": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset tiettyjen kirjoittajien artikkeleihin. ",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "author_exclude": {
+              "required": false,
+              "default": [],
+              "description": "Varmistaa ettei tuloksissa ole artikkeleita, jotka on liitetty tiettyihin kirjoittajiin.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "before": {
+              "required": false,
+              "description": "Rajoita tulokset artikkeleihin, jotka on julkaistu annettua ISO8601-yhteensopivaa päivämäärää ennen.",
+              "type": "string"
+            },
+            "exclude": {
+              "required": false,
+              "default": [],
+              "description": "Varmista, etteivät tulokset sisällä tiettyjä ID:itä.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "include": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset tiettyihin ID:ihin.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "menu_order": {
+              "required": false,
+              "description": "Rajaa tulokset tiettyyn menu_order-arvoon.",
+              "type": "integer"
+            },
+            "offset": {
+              "required": false,
+              "description": "Ohita määritelty määrä kohteita alusta.",
+              "type": "integer"
+            },
+            "order": {
+              "required": false,
+              "default": "desc",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "description": "Järjestää tulokset nousevaan tai laskevaan järjestykseen.",
+              "type": "string"
+            },
+            "orderby": {
+              "required": false,
+              "default": "date",
+              "enum": [
+                "author",
+                "date",
+                "id",
+                "include",
+                "modified",
+                "parent",
+                "relevance",
+                "slug",
+                "title",
+                "menu_order"
+              ],
+              "description": "Järjestä kokoelma kohteen ominaisuuden mukaan.",
+              "type": "string"
+            },
+            "parent": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset kohteisiin, joiden vanhemmalla on jokin määritellyistä id:istä.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "parent_exclude": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset kohteisiin, joiden vanhemmalla ei ole tiettyä id:tä.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "slug": {
+              "required": false,
+              "description": "Rajaa tulokset artikkeleihin joilla on yksi tai useampi polkutunnus.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "status": {
+              "required": false,
+              "default": "publish",
+              "description": "Rajaa tulokset artikkeleihin, joilla yksi tai useampi tila.",
+              "type": "array",
+              "items": {
+                "enum": [
+                  "publish",
+                  "future",
+                  "draft",
+                  "pending",
+                  "private",
+                  "trash",
+                  "auto-draft",
+                  "inherit",
+                  "acf-disabled",
+                  "any"
+                ],
+                "type": "string"
+              }
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST"
+          ],
+          "args": {
+            "date": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin sivuston aikavyöhykkeen ajassa.",
+              "type": "string"
+            },
+            "date_gmt": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin GMT-ajassa.",
+              "type": "string"
+            },
+            "slug": {
+              "required": false,
+              "description": "Kohteen tyypilleen uniikki alfanumeerinen tunniste.",
+              "type": "string"
+            },
+            "status": {
+              "required": false,
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private",
+                "acf-disabled"
+              ],
+              "description": "Kohteen nimetty tila.",
+              "type": "string"
+            },
+            "password": {
+              "required": false,
+              "description": "Salasana sisällön ja otteen suojaamiseksi. ",
+              "type": "string"
+            },
+            "parent": {
+              "required": false,
+              "description": "Kohteen vanhemman ID.",
+              "type": "integer"
+            },
+            "title": {
+              "required": false,
+              "description": "Kohteen otsikko. ",
+              "type": "object"
+            },
+            "content": {
+              "required": false,
+              "description": "Kohteen sisältö.",
+              "type": "object"
+            },
+            "author": {
+              "required": false,
+              "description": "Kohteen kirjoittajan ID.",
+              "type": "integer"
+            },
+            "excerpt": {
+              "required": false,
+              "description": "Kohteen ote.",
+              "type": "object"
+            },
+            "featured_media": {
+              "required": false,
+              "description": "Kohteen artikkelikuvan ID.",
+              "type": "integer"
+            },
+            "comment_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Onko kohteen kommentointi käytössä. ",
+              "type": "string"
+            },
+            "ping_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Voiko kohteelle tehdä paluuviitteen.",
+              "type": "string"
+            },
+            "menu_order": {
+              "required": false,
+              "description": "Kohteen järjestysnumero suhteessa muihin samantyyppisiin kohteisiin.",
+              "type": "integer"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            },
+            "template": {
+              "required": false,
+              "enum": [
+                "page-flex.php",
+                ""
+              ],
+              "description": "Teematiedosto joka näyttää kohteen.",
+              "type": "string"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/wp/v2/pages"
+      }
+    },
+    "/wp/v2/pages/(?P<id>[\\d]+)": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            },
+            "password": {
+              "required": false,
+              "description": "Artikkelin salasana, jos se on salasanasuojattu. ",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "date": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin sivuston aikavyöhykkeen ajassa.",
+              "type": "string"
+            },
+            "date_gmt": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin GMT-ajassa.",
+              "type": "string"
+            },
+            "slug": {
+              "required": false,
+              "description": "Kohteen tyypilleen uniikki alfanumeerinen tunniste.",
+              "type": "string"
+            },
+            "status": {
+              "required": false,
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private",
+                "acf-disabled"
+              ],
+              "description": "Kohteen nimetty tila.",
+              "type": "string"
+            },
+            "password": {
+              "required": false,
+              "description": "Salasana sisällön ja otteen suojaamiseksi. ",
+              "type": "string"
+            },
+            "parent": {
+              "required": false,
+              "description": "Kohteen vanhemman ID.",
+              "type": "integer"
+            },
+            "title": {
+              "required": false,
+              "description": "Kohteen otsikko. ",
+              "type": "object"
+            },
+            "content": {
+              "required": false,
+              "description": "Kohteen sisältö.",
+              "type": "object"
+            },
+            "author": {
+              "required": false,
+              "description": "Kohteen kirjoittajan ID.",
+              "type": "integer"
+            },
+            "excerpt": {
+              "required": false,
+              "description": "Kohteen ote.",
+              "type": "object"
+            },
+            "featured_media": {
+              "required": false,
+              "description": "Kohteen artikkelikuvan ID.",
+              "type": "integer"
+            },
+            "comment_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Onko kohteen kommentointi käytössä. ",
+              "type": "string"
+            },
+            "ping_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Voiko kohteelle tehdä paluuviitteen.",
+              "type": "string"
+            },
+            "menu_order": {
+              "required": false,
+              "description": "Kohteen järjestysnumero suhteessa muihin samantyyppisiin kohteisiin.",
+              "type": "integer"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            },
+            "template": {
+              "required": false,
+              "enum": [
+                "page-flex.php",
+                ""
+              ],
+              "description": "Teematiedosto joka näyttää kohteen.",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "DELETE"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "force": {
+              "required": false,
+              "default": false,
+              "description": "Ohitetaanko roskakori ja pakotetaan poistaminen.",
+              "type": "boolean"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/pages/(?P<parent>[\\d]+)/revisions": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "parent": {
+              "required": false,
+              "description": "Kohteen vanhemman ID.",
+              "type": "integer"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/pages/(?P<parent>[\\d]+)/revisions/(?P<id>[\\d]+)": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "DELETE"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "parent": {
+              "required": false,
+              "description": "Kohteen vanhemman ID.",
+              "type": "integer"
+            },
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "DELETE"
+          ],
+          "args": {
+            "parent": {
+              "required": false,
+              "description": "Kohteen vanhemman ID.",
+              "type": "integer"
+            },
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "force": {
+              "required": false,
+              "default": false,
+              "description": "Arvon tulee olla true, koska versiot eivät tue roskakoria.",
+              "type": "boolean"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/media": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            },
+            "page": {
+              "required": false,
+              "default": 1,
+              "description": "Kokoelman nykyinen sivu.",
+              "type": "integer"
+            },
+            "per_page": {
+              "required": false,
+              "default": 10,
+              "description": "Enimmäismäärä haun palauttamia tuloksia.",
+              "type": "integer"
+            },
+            "search": {
+              "required": false,
+              "description": "Rajaa tulokset niihin, jotka täsmäävät merkkijonoon. ",
+              "type": "string"
+            },
+            "after": {
+              "required": false,
+              "description": "Rajoita tulokset artikkeleihin, jotka on julkaistu annetun ISO8601-yhteensopivan päivämäärän jälkeen.",
+              "type": "string"
+            },
+            "author": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset tiettyjen kirjoittajien artikkeleihin. ",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "author_exclude": {
+              "required": false,
+              "default": [],
+              "description": "Varmistaa ettei tuloksissa ole artikkeleita, jotka on liitetty tiettyihin kirjoittajiin.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "before": {
+              "required": false,
+              "description": "Rajoita tulokset artikkeleihin, jotka on julkaistu annettua ISO8601-yhteensopivaa päivämäärää ennen.",
+              "type": "string"
+            },
+            "exclude": {
+              "required": false,
+              "default": [],
+              "description": "Varmista, etteivät tulokset sisällä tiettyjä ID:itä.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "include": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset tiettyihin ID:ihin.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "offset": {
+              "required": false,
+              "description": "Ohita määritelty määrä kohteita alusta.",
+              "type": "integer"
+            },
+            "order": {
+              "required": false,
+              "default": "desc",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "description": "Järjestää tulokset nousevaan tai laskevaan järjestykseen.",
+              "type": "string"
+            },
+            "orderby": {
+              "required": false,
+              "default": "date",
+              "enum": [
+                "author",
+                "date",
+                "id",
+                "include",
+                "modified",
+                "parent",
+                "relevance",
+                "slug",
+                "title"
+              ],
+              "description": "Järjestä kokoelma kohteen ominaisuuden mukaan.",
+              "type": "string"
+            },
+            "parent": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset kohteisiin, joiden vanhemmalla on jokin määritellyistä id:istä.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "parent_exclude": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset kohteisiin, joiden vanhemmalla ei ole tiettyä id:tä.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "slug": {
+              "required": false,
+              "description": "Rajaa tulokset artikkeleihin joilla on yksi tai useampi polkutunnus.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "status": {
+              "required": false,
+              "default": "inherit",
+              "description": "Rajaa tulokset artikkeleihin, joilla yksi tai useampi tila.",
+              "type": "array",
+              "items": {
+                "enum": [
+                  "inherit",
+                  "private",
+                  "trash"
+                ],
+                "type": "string"
+              }
+            },
+            "media_type": {
+              "required": false,
+              "enum": [
+                "image",
+                "video",
+                "text",
+                "application",
+                "audio"
+              ],
+              "description": "Rajaa tulokset tietyn mediatyypin liitetiedostoihin.",
+              "type": "string"
+            },
+            "mime_type": {
+              "required": false,
+              "description": "Rajaa tulokset tietyn MIME-tyypin liitetiedostoihin.",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST"
+          ],
+          "args": {
+            "date": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin sivuston aikavyöhykkeen ajassa.",
+              "type": "string"
+            },
+            "date_gmt": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin GMT-ajassa.",
+              "type": "string"
+            },
+            "slug": {
+              "required": false,
+              "description": "Kohteen tyypilleen uniikki alfanumeerinen tunniste.",
+              "type": "string"
+            },
+            "status": {
+              "required": false,
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private",
+                "acf-disabled"
+              ],
+              "description": "Kohteen nimetty tila.",
+              "type": "string"
+            },
+            "title": {
+              "required": false,
+              "description": "Kohteen otsikko. ",
+              "type": "object"
+            },
+            "author": {
+              "required": false,
+              "description": "Kohteen kirjoittajan ID.",
+              "type": "integer"
+            },
+            "comment_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Onko kohteen kommentointi käytössä. ",
+              "type": "string"
+            },
+            "ping_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Voiko kohteelle tehdä paluuviitteen.",
+              "type": "string"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            },
+            "template": {
+              "required": false,
+              "enum": [
+                ""
+              ],
+              "description": "Teematiedosto joka näyttää kohteen.",
+              "type": "string"
+            },
+            "alt_text": {
+              "required": false,
+              "description": "Vaihtoehtoinen teksti näytettäväksi kun liitettä ei voida näyttää.",
+              "type": "string"
+            },
+            "caption": {
+              "required": false,
+              "description": "Liitetiedoston kuvateksti.",
+              "type": "object"
+            },
+            "description": {
+              "required": false,
+              "description": "Liitetiedoston kuvaus.",
+              "type": "object"
+            },
+            "post": {
+              "required": false,
+              "description": "Mediaan liittyvän artikkelin ID.",
+              "type": "integer"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/wp/v2/media"
+      }
+    },
+    "/wp/v2/media/(?P<id>[\\d]+)": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "date": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin sivuston aikavyöhykkeen ajassa.",
+              "type": "string"
+            },
+            "date_gmt": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin GMT-ajassa.",
+              "type": "string"
+            },
+            "slug": {
+              "required": false,
+              "description": "Kohteen tyypilleen uniikki alfanumeerinen tunniste.",
+              "type": "string"
+            },
+            "status": {
+              "required": false,
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private",
+                "acf-disabled"
+              ],
+              "description": "Kohteen nimetty tila.",
+              "type": "string"
+            },
+            "title": {
+              "required": false,
+              "description": "Kohteen otsikko. ",
+              "type": "object"
+            },
+            "author": {
+              "required": false,
+              "description": "Kohteen kirjoittajan ID.",
+              "type": "integer"
+            },
+            "comment_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Onko kohteen kommentointi käytössä. ",
+              "type": "string"
+            },
+            "ping_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Voiko kohteelle tehdä paluuviitteen.",
+              "type": "string"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            },
+            "template": {
+              "required": false,
+              "enum": [
+                ""
+              ],
+              "description": "Teematiedosto joka näyttää kohteen.",
+              "type": "string"
+            },
+            "alt_text": {
+              "required": false,
+              "description": "Vaihtoehtoinen teksti näytettäväksi kun liitettä ei voida näyttää.",
+              "type": "string"
+            },
+            "caption": {
+              "required": false,
+              "description": "Liitetiedoston kuvateksti.",
+              "type": "object"
+            },
+            "description": {
+              "required": false,
+              "description": "Liitetiedoston kuvaus.",
+              "type": "object"
+            },
+            "post": {
+              "required": false,
+              "description": "Mediaan liittyvän artikkelin ID.",
+              "type": "integer"
+            }
+          }
+        },
+        {
+          "methods": [
+            "DELETE"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "force": {
+              "required": false,
+              "default": false,
+              "description": "Ohitetaanko roskakori ja pakotetaan poistaminen.",
+              "type": "boolean"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/types": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/wp/v2/types"
+      }
+    },
+    "/wp/v2/types/(?P<type>[\\w-]+)": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "type": {
+              "required": false,
+              "description": "Alfanumeerinen tunniste sisältötyypille.",
+              "type": "string"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/statuses": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/wp/v2/statuses"
+      }
+    },
+    "/wp/v2/statuses/(?P<status>[\\w-]+)": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "status": {
+              "required": false,
+              "description": "Alfanumeerinen tunniste tilalle.",
+              "type": "string"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/taxonomies": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            },
+            "type": {
+              "required": false,
+              "description": "Rajaa tuloksiin taksonomioihin, jotka liittyvät tiettyyn sisältötyyppiin.",
+              "type": "string"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/wp/v2/taxonomies"
+      }
+    },
+    "/wp/v2/taxonomies/(?P<taxonomy>[\\w-]+)": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "taxonomy": {
+              "required": false,
+              "description": "Alfanumeerinen tunniste taksonomialle.",
+              "type": "string"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/categories": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            },
+            "page": {
+              "required": false,
+              "default": 1,
+              "description": "Kokoelman nykyinen sivu.",
+              "type": "integer"
+            },
+            "per_page": {
+              "required": false,
+              "default": 10,
+              "description": "Enimmäismäärä haun palauttamia tuloksia.",
+              "type": "integer"
+            },
+            "search": {
+              "required": false,
+              "description": "Rajaa tulokset niihin, jotka täsmäävät merkkijonoon. ",
+              "type": "string"
+            },
+            "exclude": {
+              "required": false,
+              "default": [],
+              "description": "Varmista, etteivät tulokset sisällä tiettyjä ID:itä.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "include": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset tiettyihin ID:ihin.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "order": {
+              "required": false,
+              "default": "asc",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "description": "Järjestää tulokset nousevaan tai laskevaan järjestykseen.",
+              "type": "string"
+            },
+            "orderby": {
+              "required": false,
+              "default": "name",
+              "enum": [
+                "id",
+                "include",
+                "name",
+                "slug",
+                "term_group",
+                "description",
+                "count"
+              ],
+              "description": "Lajittele kokoelma termin ominaisuuden mukaan.",
+              "type": "string"
+            },
+            "hide_empty": {
+              "required": false,
+              "default": false,
+              "description": "Piilotetaanko termit, jotka eivät liity mihinkään artikkeliin?",
+              "type": "boolean"
+            },
+            "parent": {
+              "required": false,
+              "description": "Rajaa tulokset tiettyyn ylätasoon liittymisen mukaan.",
+              "type": "integer"
+            },
+            "post": {
+              "required": false,
+              "description": "Rajaa tulokset termeihin, jotka liittyvät tiettyyn artikkeliin.",
+              "type": "integer"
+            },
+            "slug": {
+              "required": false,
+              "description": "Rajaa tulokset termeihin yhdellä tai useammalla polkutunnuksella.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST"
+          ],
+          "args": {
+            "description": {
+              "required": false,
+              "description": "Termin kuvaus HTML-muodossa.",
+              "type": "string"
+            },
+            "name": {
+              "required": true,
+              "description": "HTML-muotoiltu otsikko termille.",
+              "type": "string"
+            },
+            "slug": {
+              "required": false,
+              "description": "Termin alfanumeerinen tunniste joka on saman lajin sisällä yksilöivä.",
+              "type": "string"
+            },
+            "parent": {
+              "required": false,
+              "description": "Ylemmän tason termin ID.",
+              "type": "integer"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/wp/v2/categories"
+      }
+    },
+    "/wp/v2/categories/(?P<id>[\\d]+)": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Yksilöivä tunniste termille.",
+              "type": "integer"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Yksilöivä tunniste termille.",
+              "type": "integer"
+            },
+            "description": {
+              "required": false,
+              "description": "Termin kuvaus HTML-muodossa.",
+              "type": "string"
+            },
+            "name": {
+              "required": false,
+              "description": "HTML-muotoiltu otsikko termille.",
+              "type": "string"
+            },
+            "slug": {
+              "required": false,
+              "description": "Termin alfanumeerinen tunniste joka on saman lajin sisällä yksilöivä.",
+              "type": "string"
+            },
+            "parent": {
+              "required": false,
+              "description": "Ylemmän tason termin ID.",
+              "type": "integer"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            }
+          }
+        },
+        {
+          "methods": [
+            "DELETE"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Yksilöivä tunniste termille.",
+              "type": "integer"
+            },
+            "force": {
+              "required": false,
+              "default": false,
+              "description": "Arvon tulee olla true, koska termit eivät tue roskakoria.",
+              "type": "boolean"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/tags": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            },
+            "page": {
+              "required": false,
+              "default": 1,
+              "description": "Kokoelman nykyinen sivu.",
+              "type": "integer"
+            },
+            "per_page": {
+              "required": false,
+              "default": 10,
+              "description": "Enimmäismäärä haun palauttamia tuloksia.",
+              "type": "integer"
+            },
+            "search": {
+              "required": false,
+              "description": "Rajaa tulokset niihin, jotka täsmäävät merkkijonoon. ",
+              "type": "string"
+            },
+            "exclude": {
+              "required": false,
+              "default": [],
+              "description": "Varmista, etteivät tulokset sisällä tiettyjä ID:itä.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "include": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset tiettyihin ID:ihin.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "offset": {
+              "required": false,
+              "description": "Ohita määritelty määrä kohteita alusta.",
+              "type": "integer"
+            },
+            "order": {
+              "required": false,
+              "default": "asc",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "description": "Järjestää tulokset nousevaan tai laskevaan järjestykseen.",
+              "type": "string"
+            },
+            "orderby": {
+              "required": false,
+              "default": "name",
+              "enum": [
+                "id",
+                "include",
+                "name",
+                "slug",
+                "term_group",
+                "description",
+                "count"
+              ],
+              "description": "Lajittele kokoelma termin ominaisuuden mukaan.",
+              "type": "string"
+            },
+            "hide_empty": {
+              "required": false,
+              "default": false,
+              "description": "Piilotetaanko termit, jotka eivät liity mihinkään artikkeliin?",
+              "type": "boolean"
+            },
+            "post": {
+              "required": false,
+              "description": "Rajaa tulokset termeihin, jotka liittyvät tiettyyn artikkeliin.",
+              "type": "integer"
+            },
+            "slug": {
+              "required": false,
+              "description": "Rajaa tulokset termeihin yhdellä tai useammalla polkutunnuksella.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST"
+          ],
+          "args": {
+            "description": {
+              "required": false,
+              "description": "Termin kuvaus HTML-muodossa.",
+              "type": "string"
+            },
+            "name": {
+              "required": true,
+              "description": "HTML-muotoiltu otsikko termille.",
+              "type": "string"
+            },
+            "slug": {
+              "required": false,
+              "description": "Termin alfanumeerinen tunniste joka on saman lajin sisällä yksilöivä.",
+              "type": "string"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/wp/v2/tags"
+      }
+    },
+    "/wp/v2/tags/(?P<id>[\\d]+)": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Yksilöivä tunniste termille.",
+              "type": "integer"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Yksilöivä tunniste termille.",
+              "type": "integer"
+            },
+            "description": {
+              "required": false,
+              "description": "Termin kuvaus HTML-muodossa.",
+              "type": "string"
+            },
+            "name": {
+              "required": false,
+              "description": "HTML-muotoiltu otsikko termille.",
+              "type": "string"
+            },
+            "slug": {
+              "required": false,
+              "description": "Termin alfanumeerinen tunniste joka on saman lajin sisällä yksilöivä.",
+              "type": "string"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            }
+          }
+        },
+        {
+          "methods": [
+            "DELETE"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Yksilöivä tunniste termille.",
+              "type": "integer"
+            },
+            "force": {
+              "required": false,
+              "default": false,
+              "description": "Arvon tulee olla true, koska termit eivät tue roskakoria.",
+              "type": "boolean"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/users/me": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ],
+          "args": {
+            "username": {
+              "required": false,
+              "description": "Käyttäjän käyttäjätunnus.",
+              "type": "string"
+            },
+            "name": {
+              "required": false,
+              "description": "Käyttäjän näyttönimi.",
+              "type": "string"
+            },
+            "first_name": {
+              "required": false,
+              "description": "Käyttäjän etunimi.",
+              "type": "string"
+            },
+            "last_name": {
+              "required": false,
+              "description": "Käyttäjän sukunimi.",
+              "type": "string"
+            },
+            "email": {
+              "required": false,
+              "description": "Käyttäjän sähköpostiosoite.",
+              "type": "string"
+            },
+            "url": {
+              "required": false,
+              "description": "Käyttäjän URL-osoite.",
+              "type": "string"
+            },
+            "description": {
+              "required": false,
+              "description": "Käyttäjän kuvaus.",
+              "type": "string"
+            },
+            "locale": {
+              "required": false,
+              "enum": [
+                "",
+                "en_US",
+                "fi"
+              ],
+              "description": "Käyttäjän kieli.",
+              "type": "string"
+            },
+            "nickname": {
+              "required": false,
+              "description": "Käyttäjän lempinimi.",
+              "type": "string"
+            },
+            "slug": {
+              "required": false,
+              "description": "Käyttäjän alfanumeerinen tunniste.",
+              "type": "string"
+            },
+            "roles": {
+              "required": false,
+              "description": "Käyttäjälle asetetut roolit.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "password": {
+              "required": false,
+              "description": "Käyttäjän salasana (ei koskaan sisälly).",
+              "type": "string"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            }
+          }
+        },
+        {
+          "methods": [
+            "DELETE"
+          ],
+          "args": {
+            "force": {
+              "required": false,
+              "default": false,
+              "description": "Arvon on oltava tosi, koska käyttäjät eivät tue roskakori-toimintoa.",
+              "type": "boolean"
+            },
+            "reassign": {
+              "required": true,
+              "description": "Merkitse poistetun käyttäjän artikkelit ja linkit tälle käyttäjä-ID:lle.",
+              "type": "integer"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/wp/v2/users/me"
+      }
+    },
+    "/wp/v2/comments": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            },
+            "page": {
+              "required": false,
+              "default": 1,
+              "description": "Kokoelman nykyinen sivu.",
+              "type": "integer"
+            },
+            "per_page": {
+              "required": false,
+              "default": 10,
+              "description": "Enimmäismäärä haun palauttamia tuloksia.",
+              "type": "integer"
+            },
+            "search": {
+              "required": false,
+              "description": "Rajaa tulokset niihin, jotka täsmäävät merkkijonoon. ",
+              "type": "string"
+            },
+            "after": {
+              "required": false,
+              "description": "Rajoita tulokset artikkeleihin, jotka on julkaistu annetun ISO8601-yhteensopivan päivämäärän jälkeen.",
+              "type": "string"
+            },
+            "author": {
+              "required": false,
+              "description": "Rajaa tulokset kommentteihin, jotka on liitetty tiettyihin käyttäjä-ID:isiin. Vaatii tunnistautumisen.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "author_exclude": {
+              "required": false,
+              "description": "Varmistaa ettei kommentteja ole liitetty tiettyihin käyttäjä-ID:isiin. Vaatii tunnistautumisen.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "author_email": {
+              "required": false,
+              "description": "Rajaa tulokset tietyllä kirjoittajan sähköpostiosoitteella. Vaatii tunnistautumisen.",
+              "type": "string"
+            },
+            "before": {
+              "required": false,
+              "description": "Rajoita tulokset kommentteihin, jotka on julkaistu annettua ISO8601-yhteensopivaa päivämäärää ennen.",
+              "type": "string"
+            },
+            "exclude": {
+              "required": false,
+              "default": [],
+              "description": "Varmista, etteivät tulokset sisällä tiettyjä ID:itä.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "include": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset tiettyihin ID:ihin.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "offset": {
+              "required": false,
+              "description": "Ohita määritelty määrä kohteita alusta.",
+              "type": "integer"
+            },
+            "order": {
+              "required": false,
+              "default": "desc",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "description": "Järjestää tulokset nousevaan tai laskevaan järjestykseen.",
+              "type": "string"
+            },
+            "orderby": {
+              "required": false,
+              "default": "date_gmt",
+              "enum": [
+                "date",
+                "date_gmt",
+                "id",
+                "include",
+                "post",
+                "parent",
+                "type"
+              ],
+              "description": "Järjestä kokoelma kohteen ominaisuuden mukaan.",
+              "type": "string"
+            },
+            "parent": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset kommentteihin, joilla on tiettyjen vanhempien ID.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "parent_exclude": {
+              "required": false,
+              "default": [],
+              "description": "Varmistaa ettei tuloksilla ole tiettyä vanhemman ID:tä.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "post": {
+              "required": false,
+              "default": [],
+              "description": "Rajaa tulokset kommentteihin, joille on asetettu tietty artikkeli-ID.",
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "status": {
+              "required": false,
+              "default": "approve",
+              "description": "Rajaa tulokset kommentteihin, joille on asetettu tietty tila. Vaatii tunnistautumisen.",
+              "type": "string"
+            },
+            "type": {
+              "required": false,
+              "default": "comment",
+              "description": "Rajaa tulokset kommentteihin, joille on asetettu tietty tyyppi. Vaatii tunnistautumisen.",
+              "type": "string"
+            },
+            "password": {
+              "required": false,
+              "description": "Artikkelin salasana, jos se on salasanasuojattu. ",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST"
+          ],
+          "args": {
+            "author": {
+              "required": false,
+              "description": "Käyttäjän ID, jos kirjoittaja on tiedossa.",
+              "type": "integer"
+            },
+            "author_email": {
+              "required": false,
+              "description": "Kohteen kirjoittajan sähköpostiosoite.",
+              "type": "string"
+            },
+            "author_ip": {
+              "required": false,
+              "description": "Kohteen kirjoittajan IP-osoite.",
+              "type": "string"
+            },
+            "author_name": {
+              "required": false,
+              "description": "Kirjoittajan näyttönimi.",
+              "type": "string"
+            },
+            "author_url": {
+              "required": false,
+              "description": "Kohteen kirjoittajan URL.",
+              "type": "string"
+            },
+            "author_user_agent": {
+              "required": false,
+              "description": "Kohteen kirjoittajan selain.",
+              "type": "string"
+            },
+            "content": {
+              "required": false,
+              "description": "Kohteen sisältö.",
+              "type": "object"
+            },
+            "date": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin sivuston aikavyöhykkeen ajassa.",
+              "type": "string"
+            },
+            "date_gmt": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin GMT-ajassa.",
+              "type": "string"
+            },
+            "parent": {
+              "required": false,
+              "default": 0,
+              "description": "Kohteen vanhemman ID.",
+              "type": "integer"
+            },
+            "post": {
+              "required": false,
+              "default": 0,
+              "description": "Liittyvän artikkelin ID.",
+              "type": "integer"
+            },
+            "status": {
+              "required": false,
+              "description": "Kohteen tila. ",
+              "type": "string"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/wp/v2/comments"
+      }
+    },
+    "/wp/v2/comments/(?P<id>[\\d]+)": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "context": {
+              "required": false,
+              "default": "view",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "description": "Pyynnön konteksti määrää mitä kenttiä vastauksessa on mukana.",
+              "type": "string"
+            },
+            "password": {
+              "required": false,
+              "description": "Kommentin artikkelin salasana (jos artikkeli on salasanasuojattu).",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "author": {
+              "required": false,
+              "description": "Käyttäjän ID, jos kirjoittaja on tiedossa.",
+              "type": "integer"
+            },
+            "author_email": {
+              "required": false,
+              "description": "Kohteen kirjoittajan sähköpostiosoite.",
+              "type": "string"
+            },
+            "author_ip": {
+              "required": false,
+              "description": "Kohteen kirjoittajan IP-osoite.",
+              "type": "string"
+            },
+            "author_name": {
+              "required": false,
+              "description": "Kirjoittajan näyttönimi.",
+              "type": "string"
+            },
+            "author_url": {
+              "required": false,
+              "description": "Kohteen kirjoittajan URL.",
+              "type": "string"
+            },
+            "author_user_agent": {
+              "required": false,
+              "description": "Kohteen kirjoittajan selain.",
+              "type": "string"
+            },
+            "content": {
+              "required": false,
+              "description": "Kohteen sisältö.",
+              "type": "object"
+            },
+            "date": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin sivuston aikavyöhykkeen ajassa.",
+              "type": "string"
+            },
+            "date_gmt": {
+              "required": false,
+              "description": "Ajankohta kun kohde julkaistiin GMT-ajassa.",
+              "type": "string"
+            },
+            "parent": {
+              "required": false,
+              "description": "Kohteen vanhemman ID.",
+              "type": "integer"
+            },
+            "post": {
+              "required": false,
+              "description": "Liittyvän artikkelin ID.",
+              "type": "integer"
+            },
+            "status": {
+              "required": false,
+              "description": "Kohteen tila. ",
+              "type": "string"
+            },
+            "meta": {
+              "required": false,
+              "description": "Metakentät.",
+              "type": "object"
+            }
+          }
+        },
+        {
+          "methods": [
+            "DELETE"
+          ],
+          "args": {
+            "id": {
+              "required": false,
+              "description": "Kohteen uniikki tunniste.",
+              "type": "integer"
+            },
+            "force": {
+              "required": false,
+              "default": false,
+              "description": "Ohitetaanko roskakori ja pakotetaan poistaminen.",
+              "type": "boolean"
+            },
+            "password": {
+              "required": false,
+              "description": "Kommentin artikkelin salasana (jos artikkeli on salasanasuojattu).",
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "/wp/v2/settings": {
+      "namespace": "wp/v2",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        },
+        {
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ],
+          "args": {
+            "title": {
+              "required": false,
+              "description": "Sivuston otsikko.",
+              "type": "string"
+            },
+            "description": {
+              "required": false,
+              "description": "Sivun kuvaus.",
+              "type": "string"
+            },
+            "url": {
+              "required": false,
+              "description": "Sivuston URL.",
+              "type": "string"
+            },
+            "email": {
+              "required": false,
+              "description": "Tätä osoitetta käytetään ylläpidon tehtäviin, kuten uusien käyttäjien rekisteröitymisilmoituksiin.",
+              "type": "string"
+            },
+            "timezone": {
+              "required": false,
+              "description": "Kaupunki samassa aikavyöhykkeessä kuin sinä.",
+              "type": "string"
+            },
+            "date_format": {
+              "required": false,
+              "description": "Muoto kaikille päivämäärän merkkijonoille.",
+              "type": "string"
+            },
+            "time_format": {
+              "required": false,
+              "description": "Muoto kaikille kellonajan merkkijonoille.",
+              "type": "string"
+            },
+            "start_of_week": {
+              "required": false,
+              "description": "Viikonpäivän numero josta viikko alkaa.",
+              "type": "integer"
+            },
+            "language": {
+              "required": false,
+              "description": "WordPressin kieli- ja maakoodi.",
+              "type": "string"
+            },
+            "use_smilies": {
+              "required": false,
+              "description": "Muunna hymiöt kuviksi.",
+              "type": "boolean"
+            },
+            "default_category": {
+              "required": false,
+              "description": "Oletuskategoria artikkeleille.",
+              "type": "integer"
+            },
+            "default_post_format": {
+              "required": false,
+              "description": "Artikkelisivujen oletusmuoto.",
+              "type": "string"
+            },
+            "posts_per_page": {
+              "required": false,
+              "description": "Näytä enintään",
+              "type": "integer"
+            },
+            "default_ping_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Salli linkki-ilmoitukset muista blogeista (pingback ja trackback) uusiin artikkeleihin.",
+              "type": "string"
+            },
+            "default_comment_status": {
+              "required": false,
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "description": "Salli uusien artikkelien kommentointi. ",
+              "type": "string"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://svirmasalo.fi/wp-json/wp/v2/settings"
+      }
+    }
+  },
+  "_links": {
+    "help": [
+      {
+        "href": "http://v2.wp-api.org/"
+      }
+    ]
+  }
+}
