@@ -41,7 +41,7 @@ a.navlink{
 	@extend a.btn;
 	@extend a.btn.default;
 	@extend a.btn.block;
-	margin:0;
+	margin:0 0 .4rem;
 	padding: .5rem;
 	font-size: .85rem;
 	background-color: $sn-positive;
