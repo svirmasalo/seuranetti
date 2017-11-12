@@ -37,50 +37,16 @@ function wpapi_endpoint(enpoint_name){
 	return wpapi_url + wpapi_endpoints[enpoint_name]
 }
 
-function usrAjax(endpoint){
+function uniAjax(endpoint){
 	return new Promise((resolve,reject) => {
-		const usr_xhr = new XMLHttpRequest();
-		usr_xhr.open('GET',endpoint);
-		usr_xhr.onload = () => resolve(usr_xhr.responseText);
-		usr_xhr.onerror = () => reject(usr_xhr.statusText);
-		usr_xhr.send();
-	});
-}
-function viewAjax(endpoint){
-	return new Promise((resolve,reject) => {
-		const view_xhr = new XMLHttpRequest();
-		view_xhr.open('GET',endpoint);
-		view_xhr.onload = () => resolve(view_xhr.responseText);
-		view_xhr.onerror = () => reject(view_xhr.statusText);
-		view_xhr.send();
-	});	
-}
-function navigationAjax(endpoint){
-	return new Promise((resolve,reject) => {
-		const nav_xhr = new XMLHttpRequest();
-		nav_xhr.open('GET',endpoint);
-		nav_xhr.onload = () => resolve(nav_xhr.responseText);
-		nav_xhr.onerror = () => reject(nav_xhr.statusText);
-		nav_xhr.send();
-	});	
+		const xhr = new XMLHttpRequest();
+		xhr.open('GET',endpoint);
+		xhr.onload = () => resolve(xhr.responseText);
+		xhr.onerror = () => reject(xhr.statusText);
+		xhr.send();
+	});		
 }
 
-
-/**
-* Auth
-function initWPAPI(){
-	let wp = new WPAPI({
-		endpoint: 'https://dev.svirmasalo.fi/vconnect/wp-json',
-		//nonce: WP_API_Settings.nonce
-	});
-
-	// wp.users().me().then(function( me ) {
-	// 	console.log( 'I am ' + me.name + '!' );
-	// });
-
-	console.log(wp);
-}
-/*****/
 
 class AppFrame extends React.Component{
 	constructor(props){
@@ -96,8 +62,8 @@ class AppFrame extends React.Component{
 		this.renderView = this.renderView.bind(this);
 
 	}
-	viewHandler(e){
-		console.log('view handler');
+	viewHandler(viewCode){
+		this.setState({view:'uutiset'});
 	}
 	componentDidMount(){
 		this.state.currentViewState = this.state.view;
@@ -143,7 +109,7 @@ class NavControlPanel extends React.Component{
 		this.callCategories();
 	}
 	callCategories(){
-		navigationAjax(wpapi_endpoint('categories')).then((response) => {
+		uniAjax(wpapi_endpoint('categories')).then((response) => {
 			console.log(JSON.parse(response));
 			this.setState({
 				categories:JSON.parse(response),
@@ -156,9 +122,9 @@ class NavControlPanel extends React.Component{
 	renderCategories(){
 		return(			
 			<div className="card">
-				<Navlink title={this.state.categories[0].name} />
-				<Navlink title={this.state.categories[1].name} />
-				<Navlink title={this.state.categories[2].name} />
+				<Navlink eventHandler={this.props.navEvent} catId={this.state.categories[0].id} title={this.state.categories[0].name} />
+				<Navlink eventHandler={this.props.navEvent} catId={this.state.categories[1].id} title={this.state.categories[1].name} />
+				<Navlink eventHandler={this.props.navEvent} catId={this.state.categories[2].id} title={this.state.categories[2].name} />
 			</div>
 		)
 	}
@@ -198,7 +164,7 @@ class CPanel extends React.Component{
 
 	}
 	handleLogin(endpoint){
-		usrAjax(endpoint).then((response) => {
+		uniAjax(endpoint).then((response) => {
 			console.log(JSON.parse(response));
 			this.setState({
 				user:JSON.parse(response)
@@ -240,56 +206,25 @@ class Navlink extends React.Component{
 	constructor(props){
 		super(props);
 		this.state = {
-			active : false
+			active : false,
+
 		}
 		this.navEvent = this.navEvent.bind(this);
 	}
 	componentDidMount(){
 		// code
 	}
-	componentWillUnmount(){
-		// code
-	}
-	navEvent(e){
-	    this.setState(prevState => ({
-			active: !prevState.active
-    	}));
+	navEvent(){
+		this.props.eventHandler(this.props.title);
 	}
 	render(){
 		return(
-			<a className="navlink" href="#" title="">{this.props.title}</a>
+			<a className="navlink"  onClick={this.navEvent} href="#" title="">{this.props.title}</a>
 		)
 	}
 
 }
-/*
-class RComponent extends React.Component{
-	constructor(props){
-		super(props);
-		this.state = {
-			active : false
-		}
-		this.rEvent = this.rEvent.bind(this);
-	}
-	componentDidMount(){
-		// code
-	}
-	componentWillUnmount(){
-		// code
-	}
-	rEvent(e){
-	    this.setState(prevState => ({
-			active: !prevState.active
-    	}));
-	}
-	render(){
-		return(
-			<div className="" />
-		)
-	}
 
-}
-*/
 
 ReactDOM.render(
   <AppFrame />,

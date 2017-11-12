@@ -16,7 +16,6 @@ Tämänhetkinen versio on numerossa 0.1.0, eli varsin alkutekijöissä ollaan. P
  * Lisätty komponenttilogiikkaa ja mm. kirjautumaton vs. kirjautunut mallinnus. 
 
 ## Kehitystilanteen tiedot / Muistio
- * Passaa näkymän vaihdoksen eventti navigaatiolinkeille
- * Yhdistä AJAX-kutsut universaaliimmiksi 
  * Poista ajax-kutsut komponenteista
  * Käytä ES6-moduuleita hyväksi
+ * Lisää näkymäkomponentit; Syöte & yksilö
