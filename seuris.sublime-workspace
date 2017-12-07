@@ -1,0 +1,552 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"content",
+				"contentBlock"
+			],
+			[
+				"fi",
+				"function"
+			],
+			[
+				"po",
+				"post"
+			],
+			[
+				"_",
+				"_viewSingular"
+			],
+			[
+				"_view",
+				"_viewSingular"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tex-",
+				"text-decoration"
+			],
+			[
+				"arvh",
+				"archive-single"
+			],
+			[
+				"store",
+				"storeKey"
+			],
+			[
+				"single",
+				"singleCategory-"
+			],
+			[
+				"cate",
+				"categoriesNew2"
+			],
+			[
+				"ca",
+				"categoryContent"
+			],
+			[
+				"wp",
+				"wpapi_url"
+			],
+			[
+				"Ar",
+				"ArchiveSingle"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"data",
+				"dataArray"
+			],
+			[
+				"view",
+				"viewContent"
+			],
+			[
+				"main",
+				"mainContent"
+			],
+			[
+				"vi",
+				"view"
+			],
+			[
+				"AR",
+				"Archive"
+			],
+			[
+				"vie",
+				"viewContent"
+			],
+			[
+				"viee",
+				"viewHandler"
+			],
+			[
+				"por",
+				"props"
+			],
+			[
+				"wpa",
+				"wpapi_enpoint_category"
+			],
+			[
+				"wpap",
+				"wpapi_get_categories"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"wpapi",
+				"wpapi_enpoint_categories"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/js/index.jsx",
+			"settings":
+			{
+				"buffer_size": 6162,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/views/_view_single.jsx",
+			"settings":
+			{
+				"buffer_size": 1545,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 544,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 562,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/sass/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 979,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/views/_view_archive.jsx",
+			"settings":
+			{
+				"buffer_size": 1633,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 59.0,
+		"last_filter": "syntax bab",
+		"selected_items":
+		[
+			[
+				"syntax bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"syntax sas",
+				"Set Syntax: Sass"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/sampovirmasalo/Documents/devs/seuranetti",
+		"/Users/sampovirmasalo/Documents/devs/seuranetti/public",
+		"/Users/sampovirmasalo/Documents/devs/seuranetti/public/dist",
+		"/Users/sampovirmasalo/Documents/devs/seuranetti/public/js",
+		"/Users/sampovirmasalo/Documents/devs/seuranetti/public/js/views",
+		"/Users/sampovirmasalo/Documents/devs/seuranetti/public/sass"
+	],
+	"file_history":
+	[
+		"/Users/sampovirmasalo/Documents/devs/seuranetti/public/js/helps.jsx",
+		"/Users/sampovirmasalo/Documents/devs/seuranetti/public/sass/_controls.scss",
+		"/Users/sampovirmasalo/Documents/devs/seuranetti/public/sass/_default-elements.scss",
+		"/Users/sampovirmasalo/Documents/devs/seuranetti/webpack.config.js",
+		"/Users/sampovirmasalo/Documents/devs/seuranetti/gulpfile.js",
+		"/Users/sampovirmasalo/Documents/devs/seuranetti/public/js/status.jsx",
+		"/Users/sampovirmasalo/Documents/devs/seuranetti/public/sass/_typography.scss"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"em",
+			"store"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"rem",
+			"STORE"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/js/index.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								358,
+								325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 29.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/js/views/_view_single.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1275,
+								1275
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								436,
+								436
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/sass/_typography.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								971,
+								971
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 230.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/js/views/_view_archive.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								732,
+								732
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 62.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "seuris.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"gulpfile.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

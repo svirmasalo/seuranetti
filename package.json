@@ -32,8 +32,10 @@
     "webpack-dev-server": "^2.9.2"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "store": "^2.0.12",
     "wpapi": "^1.1.2"
   }
 }

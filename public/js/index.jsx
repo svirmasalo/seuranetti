@@ -1,6 +1,23 @@
-const WPAPI = require( 'wpapi' );
+//const WPAPI = require( 'wpapi' );
+
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+/*STORE*/
+import store from 'store';
+console.log(store);
+
+import axios from 'axios';
+
+/*IMPORT VIEWS*/
+import {Archive} from './views/_view_archive.jsx';
+import {Single} from './views/_view_single.jsx';
+
+/*IMPORT COMPONENTS*/
+import {Wait} from './helps.jsx';
+import {Status} from './status.jsx';
+import {wpapi_enpoint_categories,wpapi_enpoint_category, wpapi_enpoint_posts, wpapi_enpoint_post} from './endpoints.js';
+
 
 const wpapi_url = 'https://dev.svirmasalo.fi/vconnect/wp-json/';
 const wpapi_endpoints = {
@@ -9,9 +26,8 @@ const wpapi_endpoints = {
 	posts:'wp/v2/posts/'
 };
 
-const Wait = function(){
-	return <p className="loading">Loading...</p>
-}
+
+
 const DefaultView = function(){
 	return (
 		<div className="card contents">
@@ -22,7 +38,9 @@ const DefaultView = function(){
 		</div>
 	);
 }
+
 const News = function(){
+	
 	return (
 		<div className="card contents">
 			<header>
@@ -52,94 +70,119 @@ class AppFrame extends React.Component{
 	constructor(props){
 		super(props);
 		this.state = {
-			view:'default',
-			currentViewState : '',
-			prevViewState: '',
-
-
+			view: 'dashboard',
+			category: '',
+			viewContent: null,
 		}
-		this.viewHandler = this.viewHandler.bind(this);
-		this.renderView = this.renderView.bind(this);
+		this._view = this._view.bind(this);
+		this._viewSingular = this._viewSingular.bind(this);
+		this._clearCache = this._clearCache.bind(this);
 
-	}
-	viewHandler(viewCode){
-		this.setState({view:'uutiset'});
 	}
 	componentDidMount(){
-		this.state.currentViewState = this.state.view;
+		
 	}
-	renderView(){
-		switch(this.state.view){
-			case 'default' : 
-				return <DefaultView />
-				break;
-			case 'uutiset' :
-				return <News />
-				break;
-			default :
-				return <DefaultView />
-		}	
+
+	_view(cat, catCon){
+		//console.log('vcon', vcon);
+		this.setState({ view:'archive', category:cat, viewContent:catCon });
 	}
+	_viewSingular(title, singCon){
+		this.setState({ view:'single', category:title, viewContent:singCon });
+	}
+	_clearCache(){
+		store.each(function(value, key) {
+			console.log('clearing this store: ', key);
+			store.remove(key);
+		});
+	}
+
 	render(){
+		
+		const {view, category,viewContent} = this.state;
+		
+		let mainContent;
+
+		if(view == "archive"){
+			/**
+			* Pass singular view handler to archive
+			*/ 
+			mainContent = <Archive name={category} data={viewContent} viewSingluar={this._viewSingular}/>;
+		}else if( view == "single" ){
+			mainContent = <Single name={category} data={viewContent} />;
+		}else{
+			mainContent = <div><h2>Tervetuloa!</h2></div>
+		}
+
 		return(
 			<div className="appFrame">
-				<CPanel />
-				<main>
-					<NavControlPanel navEvent={this.viewHandler}/>
-					{this.renderView()}
-				</main>
-				<footer></footer>
+				<div className="wrapper">
+					<aside>
+						<NavLinks viewHandler={this._view} />
+					</aside>
+					<main>
+						{mainContent}
+					</main>
+					<aside>
+						<Status />
+					</aside>
+				</div>
+				<footer id="site-footer">
+					<button disabled onClick={this._clearCache}>Clear cache</button>
+				</footer>
 			</div>
 		)
 	}
 }
 
-class NavControlPanel extends React.Component{
+class categoryView extends React.Component{
 	constructor(props){
 		super(props);
 		this.state = {
-			ready: false,
-			categories : [],
+			ready : false,
 		}
-		this.callCategories = this.callCategories.bind(this);
-		this.renderCategories = this.renderCategories.bind(this);
-		this.renderWait = this.renderWait.bind(this);
 	}
 	componentDidMount(){
-		this.callCategories();
-	}
-	callCategories(){
-		uniAjax(wpapi_endpoint('categories')).then((response) => {
-			console.log(JSON.parse(response));
-			this.setState({
-				categories:JSON.parse(response),
-				ready:true,
-			})
-		}).catch((error) => {
-			console.log(error);
-		});	
-	}
-	renderCategories(){
-		return(			
-			<div className="card">
-				<Navlink eventHandler={this.props.navEvent} catId={this.state.categories[0].id} title={this.state.categories[0].name} />
-				<Navlink eventHandler={this.props.navEvent} catId={this.state.categories[1].id} title={this.state.categories[1].name} />
-				<Navlink eventHandler={this.props.navEvent} catId={this.state.categories[2].id} title={this.state.categories[2].name} />
-			</div>
-		)
-	}
-	renderWait(){
-		return(
-			<div className="card">
-				<Wait />
-			</div>
-		)
+		// Käsittele dynaaminen data
 	}
 	render(){
-		if (this.state.ready){
-			return this.renderCategories();
+		return('<h2>Moi</h2>');
+	}
+}
+
+class NavLinks extends React.Component{
+	constructor(props){
+		super(props);
+		this.state = {
+			ready:false,
+			categories:''
+		}
+	}
+	componentDidMount(){
+		
+			axios.get( wpapi_enpoint_categories() )
+			.then((response) => {
+				this.setState({
+					categories : response.data,
+					ready: true,
+				})
+				console.log("response got from NavLinks");
+			})
+			.catch((error) => { console.log('error:', error) });
+	}
+	render(){
+		const {ready,categories} = this.state;
+
+		if(ready){
+			return(
+				<div className="card">
+			          {categories.map(item => (
+			            <Navlink key={item.id} id={item.id} title={item.name} viewHandler={ this.props.viewHandler }/>
+			          ))}
+				</div>
+			)
 		}else{
-			return this.renderWait();
+			return( <h2>Loading...</h2>)
 		}
 	}
 }
@@ -165,7 +208,6 @@ class CPanel extends React.Component{
 	}
 	handleLogin(endpoint){
 		uniAjax(endpoint).then((response) => {
-			console.log(JSON.parse(response));
 			this.setState({
 				user:JSON.parse(response)
 			});
@@ -206,21 +248,38 @@ class Navlink extends React.Component{
 	constructor(props){
 		super(props);
 		this.state = {
-			active : false,
-
+			ready:false,
+			categoryContent : null
 		}
 		this.navEvent = this.navEvent.bind(this);
 	}
+
 	componentDidMount(){
-		// code
+		const storeKey = 'singleCategory'+this.props.id;
+		this.setState({ready:true});
 	}
-	navEvent(){
-		this.props.eventHandler(this.props.title);
+
+	navEvent(event){
+		event.preventDefault();
+		axios.get( wpapi_enpoint_category(this.props.id) )
+		.then((response) => {
+			this.setState({categoryContent:response.data});
+			this.props.viewHandler(this.props.title, this.state.categoryContent);
+		})
+		.catch((error) => { console.log('error:', error) });
 	}
+
 	render(){
-		return(
-			<a className="navlink"  onClick={this.navEvent} href="#" title="">{this.props.title}</a>
-		)
+		const {ready, categoryContent} = this.state;
+		if(ready){
+			return(
+				<a className="navlink" href="#" onClick={this.navEvent} title="">{this.props.title}</a>
+			)
+		}else{
+			return(
+				<a className="navlink loading" href="#" title="">Ladataan...</a>
+			)
+		}
 	}
 
 }

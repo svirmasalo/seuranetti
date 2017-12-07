@@ -33,8 +33,19 @@ a.btn{
 		background-color: lighten($sn-positive,5%);
 		border-color: lighten($sn-positive,5%);
 		color:white;
-		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		//box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 		background-size: 200%;
+	}
+	&.round{
+		height: 3rem;
+		width:3rem;
+		line-height: 3rem;
+		padding:0;
+		border-radius:150%;
+		background-color:$sn-positive;
+		color: white;
+		text-decoration: none;
+
 	}
 }
 a.navlink{
